@@ -1,0 +1,33 @@
+====================================================================
+ MAC SAYS: "Apple could not verify ... is free of malware"?
+ THIS IS NORMAL. Here is the one-time fix (takes 30 seconds).
+====================================================================
+
+Apple shows this warning for ANY app downloaded from the internet
+that isn't from the App Store. It does NOT mean anything is wrong.
+You only have to do this ONCE.
+
+STEP 1.  In the warning popup, click  "Done"
+         (do NOT click "Move to Bin")
+
+STEP 2.  Open  System Settings  ->  Privacy & Security
+
+STEP 3.  Scroll down to the "Security" section. You will see:
+         '"Start Screener (Mac).command" was blocked...'
+         Click the  "Open Anyway"  button next to it.
+
+STEP 4.  Double-click  "Start Screener (Mac).command"  again.
+         If asked once more, click  "Open".
+
+That's it. From now on it opens normally with a double-click.
+
+--------------------------------------------------------------------
+ALTERNATIVE (if you're comfortable with Terminal):
+Open Terminal, type  bash  followed by a space, then drag the
+"Start Screener (Mac).command" file into the Terminal window and
+press Return. This starts the app directly without the popup.
+--------------------------------------------------------------------
+
+On OLDER Macs (macOS 14 or earlier) there's a shortcut instead:
+right-click the file -> Open -> Open.
+====================================================================
