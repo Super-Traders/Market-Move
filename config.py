@@ -26,8 +26,8 @@ FETCH_MAX_WORKERS = 8
 
 # Years of daily history to fetch. The longer timeframes (quarterly/semi-annual/annual)
 # resample to few points, so they need many years of underlying data to be computable.
-# 7 years supports weekly→semi-annual fully; annual is data-limited by free retail sources.
-HISTORY_YEARS = 7
+# 10 years supports weekly→semi-annual fully; annual is data-limited by free retail sources.
+HISTORY_YEARS = 10
 
 TIMEFRAME_CONFIGS = {
     "daily": {
@@ -54,7 +54,7 @@ TIMEFRAME_CONFIGS = {
         "tail_length": 6,
         "min_history_days": 800,
     },
-    # Long-timeframe windows are sized to be computable with ~7 years of history
+    # Long-timeframe windows are sized to be computable with ~10 years of history
     # (RRG needs ≈ 2·sma_window + roc_lookback points after resampling).
     "quarterly": {
         "resample": "QE",

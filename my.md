@@ -11,6 +11,8 @@ python portfolio_strategy_backtest_rank.py --years 3 --sweep --sweep-top-n 5,10,
 
 python portfolio_strategy_backtest_rank.py --years 5 --sweep --sweep-top-n 5,10,15,20,25,30 --sweep-exit-ranks 60,70,80
 
+python portfolio_strategy_backtest_rank.py --years 10 --sweep --sweep-top-n 10,15,20,25,30 --sweep-exit-ranks 60,70,80
+
 
 
 
@@ -24,6 +26,9 @@ python portfolio_strategy_backtest.py --years 5 --sweep --sweep-top-n 5,6,7,8,9,
 
 
 python portfolio_strategy_backtest.py --years 1 --top-n 20 --exit-rank 60 --initial-capital  1000000
+
+python portfolio_strategy_backtest.py --years 10 --top-n 20 --exit-rank 60 --initial-capital  1000000
+
 
 
 FIND SWEET Stock Count
@@ -367,6 +372,22 @@ python cli.py sectors --timeframe monthly   -b "NIFTY 50"
 │ 19   │ Construction Materials       │ Improving    │      97.21 │     100.66 │           9% │           0% │ Weak     │
 │ 20   │ Information Technology       │ Lagging      │      97.70 │      98.94 │          33% │          18% │ Weak     │
 └──────┴──────────────────────────────┴──────────────┴────────────┴────────────┴──────────────┴──────────────┴──────────┘
+
+
+
+1    │ GLAND        │ Healthcare               │ Leading      │      98% │ ✓ +41.1%     │        58% │      91 │
+│ 2    │ REDINGTON    │ Services                 │ Leading      │      98% │ ✓ +37.7%     │        57% │      90 │
+│ 3    │ WOCKPHARMA   │ Healthcare               │ Leading      │      96% │ ✓ +19.5%     │        58% │      90 │
+│ 4    │ IPCALAB      │ Healthcare               │ Leading      │      94% │ ✓ +17.0%     │        58% │      89 │
+│ 5    │ VIJAYA       │ Healthcare               │ Leading      │      93% │ ✓ +19.2%     │        58% │      89 │
+│ 6    │ JSWINFRA     │ Services                 │ Leading      │      86% │ ✓ +15.2%     │        57% │      86 │
+│ 7    │ ZYDUSLIFE    │ Healthcare               │ Leading      │      83% │ ✓ +10.0%     │        58% │      86 │
+│ 8    │ TORNTPHARM   │ Healthcare               │ Leading      │      82% │ ✓ +4.7%      │        58% │      85 │
+│ 9    │ ETERNAL      │ Consumer Services        │ Leading      │      83% │ ✓ +16.5%     │        52% │      84 │
+│ 10   │ SHYAMMETL    │ Capital Goods            │ Leading      │      85% │ ✓ +15.1%     │        48% │      84 │
+│ 11
+
+
 
 
 
