@@ -350,24 +350,6 @@ def compute_position_weight_pct(symbol: str, positions: Dict[str, Dict[str, floa
     return (pos_value / max(portfolio_total, 1e-9)) * 100.0
 
 
-def compute_portfolio_return(portfolio: List[str], start_date: date, next_date: date, panel: Dict[str, pd.DataFrame]) -> tuple[float, List[str]]:
-    if not portfolio:
-        return 0.0, []
-    returns = []
-    for symbol in portfolio:
-        s = panel.get(symbol)
-        if s is None or s.empty:
-            continue
-        start_val = get_last_price(s["Close"], start_date)
-        end_val = get_last_price(s["Close"], next_date)
-        if pd.isna(start_val) or pd.isna(end_val) or start_val == 0:
-            continue
-        returns.append((end_val / start_val) - 1.0)
-    if not returns:
-        return 0.0, portfolio
-    return float(np.mean(returns)), portfolio
-
-
 def compute_protection_factor(
     as_of_date: date,
     equity_curve: List[float],
@@ -461,10 +443,11 @@ def run_backtest(
         if not ranked:
             continue
 
+        is_initial_rebalance = not rebal_report
         previous_holdings = list(holdings)
         previous_set = set(previous_holdings)
 
-        if i == 0:
+        if is_initial_rebalance:
             holdings = build_initial_portfolio(ranked, top_n)
         else:
             holdings = built_target_portfolio(holdings, ranked, top_n, exit_rank, buffer_start)
@@ -489,7 +472,7 @@ def run_backtest(
 
         # Reset/refresh the live positions to the target portfolio on each monthly rebalance.
         # Strict rule: no entry without exit. New entries must be funded only by exit proceeds.
-        if i == 0:
+        if is_initial_rebalance:
             cash_balance = initial_capital
             positions = {}
             if holdings:
@@ -632,15 +615,26 @@ def run_backtest(
             historical_positions[sym] = pos.copy()
         last_month_positions = positions.copy()
 
-        portfolio_return, _ = compute_portfolio_return(holdings, trade_date, next_trade_date, panel)
+        portfolio_start_value = get_portfolio_total_value(
+            positions, cash_balance, price_lookup, trade_date
+        )
+        portfolio_end_value = get_portfolio_total_value(
+            positions, cash_balance, price_lookup, next_trade_date
+        )
+        portfolio_return = (
+            (portfolio_end_value / portfolio_start_value) - 1.0
+            if portfolio_start_value > 0
+            else 0.0
+        )
         updated_equity = float(equity_curve[-1] * (1.0 + (portfolio_return * weight)))
         equity_curve.append(updated_equity)
         nav_history.append(float(updated_equity))
         portfolio_value = updated_equity
-        portfolio_total_value = get_portfolio_total_value(positions, cash_balance, price_lookup, trade_date)
+        portfolio_total_value = portfolio_end_value
 
         rebal_report.append({
             "date": trade_date.isoformat(),
+            "period_end_date": next_trade_date.isoformat(),
             "rank_snapshot": {k: int(v) for k, v in sorted(ranked.items(), key=lambda kv: kv[1])[:top_n]},
             "previous_holdings": previous_holdings,
             "new_holdings": list(holdings),
@@ -825,6 +819,7 @@ def export_monthly_excel_report(result: dict, output_path: str | Path) -> str:
             overview_rows.append({
                 "Period": item["date"][0:7],
                 "Rebalance_Date": item["date"],
+                "Period_End_Date": item.get("period_end_date", item["date"]),
                 "Opening_Portfolio_Value": round(previous_portfolio_value, 2),
                 "Closing_Portfolio_Value": round(portfolio_total_value, 2),
                 "Monthly_Profit_Loss": round(month_change, 2),
@@ -839,6 +834,7 @@ def export_monthly_excel_report(result: dict, output_path: str | Path) -> str:
 
             summary_rows.append({
                 "Rebalance_Date": item["date"],
+                "Period_End_Date": item.get("period_end_date", item["date"]),
                 "Portfolio_Return_%": round(item["portfolio_return_pct"], 4),
                 "Monthly_Change_₹": round(month_change, 2),
                 "Monthly_Change_%": round(month_change_pct, 4),
@@ -863,6 +859,7 @@ def export_monthly_excel_report(result: dict, output_path: str | Path) -> str:
 
             monthly_return_rows.append({
                 "Rebalance_Date": item["date"],
+                "Period_End_Date": item.get("period_end_date", item["date"]),
                 "Month": item["date"][0:7],
                 "Portfolio_Value": round(portfolio_total_value, 2),
                 "Absolute_Profit_₹": round(absolute_profit, 2),
@@ -938,6 +935,7 @@ def export_monthly_excel_report(result: dict, output_path: str | Path) -> str:
     overview_rows.append({
         "Period": "Overall",
         "Rebalance_Date": result.get("end_date", ""),
+        "Period_End_Date": result.get("end_date", ""),
         "Opening_Portfolio_Value": round(float(result.get("initial_capital", 0.0)), 2),
         "Closing_Portfolio_Value": round(float(result.get("final_portfolio_value", result.get("current_value", 0.0))), 2),
         "Monthly_Profit_Loss": np.nan,
