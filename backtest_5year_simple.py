@@ -239,18 +239,20 @@ def run_backtest(years=5, top_n=20, exit_rank=60, cost_bps=30.0, stcg=0.20):
 
 if __name__ == "__main__":
     # Run 3-year and 5-year backtests
-    results_3yr = run_backtest(years=3, top_n=20, exit_rank=60)
-    results_5yr = run_backtest(years=5, top_n=20, exit_rank=60)
-    results_6yr = run_backtest(years=6, top_n=20, exit_rank=60)
+    # results_3yr = run_backtest(years=3, top_n=20, exit_rank=60)
+    # results_5yr = run_backtest(years=5, top_n=20, exit_rank=60)
+    # results_6yr = run_backtest(years=6, top_n=20, exit_rank=60)
+    results_10yr = run_backtest(years=10, top_n=20, exit_rank=60)
 
 
-    if results_3yr and results_5yr and results_6yr:
-        print(f"\n{'='*80}")
-        print("COMPARISON: 3-Year vs 5-Year vs 6-Year Strategy Performance")
-        print(f"{'='*80}\n")
-        print(f"{'Metric':<20} {'3-Year':>15} {'5-Year':>15} {'6-Year':>15}")
-        print("-" * 70)
-        print(f"{'CAGR':<20} {results_3yr['strategy']['cagr']:>14.2f}% {results_5yr['strategy']['cagr']:>14.2f}% {results_6yr['strategy']['cagr']:>14.2f}%")
-        print(f"{'Total Return':<20} {results_3yr['strategy']['total']:>14.2f}% {results_5yr['strategy']['total']:>14.2f}% {results_6yr['strategy']['total']:>14.2f}%")
-        print(f"{'Sharpe':<20} {results_3yr['strategy']['sharpe']:>15.2f} {results_5yr['strategy']['sharpe']:>15.2f} {results_6yr['strategy']['sharpe']:>15.2f}")
-        print(f"{'Max DD':<20} {results_3yr['strategy']['maxdd']:>14.2f}% {results_5yr['strategy']['maxdd']:>14.2f}% {results_6yr['strategy']['maxdd']:>14.2f}%")
+
+    # if results_3yr and results_5yr and results_6yr:
+    #     print(f"\n{'='*80}")
+    #     print("COMPARISON: 3-Year vs 5-Year vs 6-Year Strategy Performance")
+    #     print(f"{'='*80}\n")
+    #     print(f"{'Metric':<20} {'3-Year':>15} {'5-Year':>15} {'6-Year':>15}")
+    #     print("-" * 70)
+    #     print(f"{'CAGR':<20} {results_3yr['strategy']['cagr']:>14.2f}% {results_5yr['strategy']['cagr']:>14.2f}% {results_6yr['strategy']['cagr']:>14.2f}%")
+    #     print(f"{'Total Return':<20} {results_3yr['strategy']['total']:>14.2f}% {results_5yr['strategy']['total']:>14.2f}% {results_6yr['strategy']['total']:>14.2f}%")
+    #     print(f"{'Sharpe':<20} {results_3yr['strategy']['sharpe']:>15.2f} {results_5yr['strategy']['sharpe']:>15.2f} {results_6yr['strategy']['sharpe']:>15.2f}")
+    #     print(f"{'Max DD':<20} {results_3yr['strategy']['maxdd']:>14.2f}% {results_5yr['strategy']['maxdd']:>14.2f}% {results_6yr['strategy']['maxdd']:>14.2f}%")

@@ -105,6 +105,42 @@ Max DD                       -27.74%         -27.74%           -27.74%
 
 
 
+================================================================================
+BACKTEST: 10-Year Strategy | Top-20 Portfolio | Monthly Rebalance | Exit Rank 60
+================================================================================
+
+Period: 2016-10-16 to 2026-10-14
+Available data for 486 stocks
+
+Rebalance dates: 120 monthly occurrences
+
+METRIC                      STRATEGY       NIFTY 500
+----------------------------------------------------
+CAGR                          27.33%          10.08%
+Total Return                 745.19%         133.66%
+Max Drawdown                 -42.46%         -32.76%
+Volatility (Ann.)             25.53%          18.36%
+Sharpe Ratio                    1.09            0.62
+----------------------------------------------------
+Alpha (CAGR)                  17.25%
+Win Rate                       56.6%
+Positive Months                61.3%
+
+POST-TAX CAGR (20% STCG): 16.34% vs Benchmark 10.08%
+Months Evaluated: 106 | Period: ~8.8 years
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

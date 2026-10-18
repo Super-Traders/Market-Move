@@ -30,19 +30,19 @@ from scoring.composite import compute_rotation_score
 _SECTOR_OF = {s: name for name, syms in SECTORS.items() for s in syms}
 
 
-def _load_panel(min_days=260):
+def _load_panel(min_days=260, to_date=None):
     conn = get_connection()
     try:
         daily = {}
         for s in get_all_stocks():
-            d = load_ohlcv(conn, s)
+            d = load_ohlcv(conn, s, to_date=to_date)
             if d.empty:
                 continue
             c = d["Close"]
             c = c[~c.index.duplicated(keep="last")].sort_index().dropna()
             if len(c) >= min_days:
                 daily[s] = c
-        bench = load_ohlcv(conn, "IDX:NIFTY 500")["Close"]
+        bench = load_ohlcv(conn, "IDX:NIFTY 500", to_date=to_date)["Close"]
         bench = bench[~bench.index.duplicated(keep="last")].sort_index().dropna()
     finally:
         conn.close()

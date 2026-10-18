@@ -130,12 +130,15 @@ def save_ohlcv(conn, symbol, df, source="stock"):
     conn.commit()
 
 
-def load_ohlcv(conn, symbol, from_date=None):
+def load_ohlcv(conn, symbol, from_date=None, to_date=None):
     query = "SELECT date, open, high, low, close, volume FROM ohlcv WHERE symbol = ?"
     params = [symbol]
     if from_date:
         query += " AND date >= ?"
         params.append(str(from_date))
+    if to_date:
+        query += " AND date <= ?"
+        params.append(str(pd.Timestamp(to_date).date()))
     query += " ORDER BY date"
     df = pd.read_sql_query(query, conn, params=params)
     if df.empty:

@@ -5,7 +5,7 @@ python current_stock_picks.py --as-of 2026-09-25
 
 
 
-python portfolio_strategy_backtest_rank.py --years 3 --top-n 20 --exit-rank 60 --initial-capital  1000000
+python portfolio_strategy_backtest_rank.py --years 10 --top-n 20 --exit-rank 60 --initial-capital  1000000
 
 python portfolio_strategy_backtest_rank.py --years 3 --sweep --sweep-top-n 5,10,15,20,25,30 --sweep-exit-ranks 60,70,80
 
@@ -17,7 +17,7 @@ python portfolio_strategy_backtest_rank.py --years 10 --sweep --sweep-top-n 10,1
 
 
 # Backtest for Anuslsos 
-OLD 
+# OLD 
 python portfolio_strategy_backtest.py --years 1 --top-n 20 --exit-rank 60 --initial-capital  1000000
 
 python portfolio_strategy_backtest.py --years 3 --sweep --sweep-top-n 5,10,15,20,25,30 --sweep-exit-ranks 60,70,80
@@ -31,7 +31,7 @@ python portfolio_strategy_backtest.py --years 10 --top-n 20 --exit-rank 60 --ini
 
 
 
-FIND SWEET Stock Count
+# FIND SWEET Stock Count
 
 python portfolio_strategy_backtest.py --years 3 --sweep --sweep-top-n 15,20,25,30 --sweep-exit-ranks 60,70,80
 

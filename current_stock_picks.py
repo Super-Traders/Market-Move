@@ -57,17 +57,20 @@ def rank_current_stocks(timeframe: str = "monthly", top_n: int = 20,
     if top_n < 1:
         raise ValueError("top_n must be at least 1")
 
-    daily, benchmark = _load_panel()
-    if not daily or benchmark.empty:
-        raise ValueError("No cached stock or Nifty 500 benchmark data was found.")
-
     if as_of_date is None:
-        requested_date = pd.Timestamp(benchmark.index[-1])
+        daily, benchmark = _load_panel()
     else:
         try:
             requested_date = pd.Timestamp(as_of_date).normalize()
         except (TypeError, ValueError) as exc:
             raise ValueError("as_of_date must be a valid date in YYYY-MM-DD format.") from exc
+        daily, benchmark = _load_panel(to_date=requested_date)
+
+    if not daily or benchmark.empty:
+        raise ValueError("No cached stock or Nifty 500 benchmark data was found.")
+
+    if as_of_date is None:
+        requested_date = pd.Timestamp(benchmark.index[-1])
 
     available_benchmark = benchmark.loc[:requested_date].dropna()
     if available_benchmark.empty:
