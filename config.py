@@ -27,7 +27,7 @@ FETCH_MAX_WORKERS = 8
 # Years of daily history to fetch. The longer timeframes (quarterly/semi-annual/annual)
 # resample to few points, so they need many years of underlying data to be computable.
 # 10 years supports weekly→semi-annual fully; annual is data-limited by free retail sources.
-HISTORY_YEARS = 10
+HISTORY_YEARS = 11
 
 TIMEFRAME_CONFIGS = {
     "daily": {

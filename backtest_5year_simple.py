@@ -3,11 +3,15 @@ Simple 5-year backtest for 20-stock monthly rebalancing strategy.
 - Exit rank: 60 (sell if rank drops below 60)
 - Portfolio: Top 20 stocks, monthly rebalance on 25th
 - Include transaction costs (30bps) and taxes (20% STCG)
+
+Run with an optional historical cutoff:
+    python backtest_5year_simple.py --as-of 2024-12-31
 """
 
+import argparse
 import numpy as np
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import date, timedelta
 from config import get_all_stocks, TIMEFRAME_CONFIGS
 from data.cache import get_connection, load_ohlcv
 from indicators.rrg import calculate_rrg
@@ -19,8 +23,9 @@ from config import SECTORS
 
 _SECTOR_OF = {s: name for name, syms in SECTORS.items() for s in syms}
 
-def run_backtest(years=5, top_n=20, exit_rank=60, cost_bps=30.0, stcg=0.20):
-    """Run backtest for specified number of years."""
+def run_backtest(years=5, top_n=20, exit_rank=60, cost_bps=30.0, stcg=0.20,
+                 as_of_date=None):
+    """Run the backtest using data no later than as_of_date, if provided."""
     
     print(f"\n{'='*80}")
     print(f"BACKTEST: {years}-Year Strategy | Top-{top_n} Portfolio | Monthly Rebalance | Exit Rank {exit_rank}")
@@ -48,8 +53,28 @@ def run_backtest(years=5, top_n=20, exit_rank=60, cost_bps=30.0, stcg=0.20):
         print("ERROR: No data loaded")
         return None
     
-    # Set backtest period (last N years)
-    end_date = bench.index.max()
+    # Resolve the cutoff to the latest benchmark trading day on or before it.
+    if as_of_date is None:
+        cutoff_date = bench.index.max()
+    else:
+        try:
+            cutoff_date = pd.Timestamp(as_of_date).normalize()
+        except (TypeError, ValueError) as exc:
+            raise ValueError("as_of_date must be a valid date, e.g. '2024-12-31'.") from exc
+        if pd.isna(cutoff_date):
+            raise ValueError("as_of_date must be a valid date, e.g. '2024-12-31'.")
+
+    available_dates = bench.index[bench.index <= cutoff_date]
+    if available_dates.empty:
+        print(f"ERROR: No benchmark data available on or before {cutoff_date.date()}")
+        return None
+    end_date = available_dates[-1]
+
+    # Clip all loaded series at the same effective cutoff to exclude future data.
+    daily = {symbol: close.loc[:end_date] for symbol, close in daily.items()}
+    bench = bench.loc[:end_date]
+
+    # Set backtest period (last N years ending at the effective cutoff)
     start_date = end_date - timedelta(days=365*years)
     
     print(f"Period: {start_date.date()} to {end_date.date()}")
@@ -238,11 +263,19 @@ def run_backtest(years=5, top_n=20, exit_rank=60, cost_bps=30.0, stcg=0.20):
     }
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Run the monthly stock rotation backtest.")
+    parser.add_argument(
+        "--as-of",
+        type=date.fromisoformat,
+        help="Last date to include (YYYY-MM-DD); uses the previous trading day if needed.",
+    )
+    args = parser.parse_args()
+
     # Run 3-year and 5-year backtests
-    # results_3yr = run_backtest(years=3, top_n=20, exit_rank=60)
-    # results_5yr = run_backtest(years=5, top_n=20, exit_rank=60)
-    # results_6yr = run_backtest(years=6, top_n=20, exit_rank=60)
-    results_10yr = run_backtest(years=10, top_n=20, exit_rank=60)
+    results_3yr = run_backtest(years=3, top_n=20, exit_rank=60, as_of_date=args.as_of)
+    results_5yr = run_backtest(years=5, top_n=20, exit_rank=60, as_of_date=args.as_of)
+    results_6yr = run_backtest(years=6, top_n=20, exit_rank=60, as_of_date=args.as_of)
+    # results_10yr = run_backtest(years=10, top_n=20, exit_rank=60)
 
 
 

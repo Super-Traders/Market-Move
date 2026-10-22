@@ -1,4 +1,4 @@
-SUPER MOmentum 
+# SUPER MOmentum 
 
 python current_stock_picks.py --as-of 2026-09-25 --include-below-200dma
 

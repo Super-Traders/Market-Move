@@ -66,9 +66,12 @@ def fetch_stock_list():
 # Example usage
 # stock_list = fetch_stock_list()
 # print(stock_list)
+stock = "LAURUSLABS"
 
-df = fetch_stock_from_cache("IDX:NIFTY 50" \
-"", from_date="2010-01-01", to_date="2026-12-31")
-df = fetch_stock_from_cache("GLAND", from_date="2010-01-01", to_date="2026-12-31")
+# df = fetch_stock_from_cache("IDX:NIFTY 50" "", from_date="2010-01-01", to_date="2026-12-31")
+df = fetch_stock_from_cache(stock, from_date="2010-01-01", to_date="2026-12-31")
+df.to_csv(f"{stock}_details.csv")
 print(df.head())
 print(df.tail())
+
+
