@@ -13,8 +13,10 @@ python portfolio_strategy_backtest_rank.py --years 5 --sweep --sweep-top-n 5,10,
 python portfolio_strategy_backtest_rank.py --years 10 --sweep --sweep-top-n 10,15,20,25,30 --sweep-exit-ranks 60,70,80
 
 ## ARCHIVE 
-
-
+# Export
+python data/cache_archive.py export
+ # Import
+# python data\cache_archive.py import --replace
 
 # Backtest for Anuslsos 
 # OLD 
