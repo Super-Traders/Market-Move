@@ -30,14 +30,18 @@ def fetch_stock_from_cache(symbol, from_date=None, to_date=None):
         query += " ORDER BY date ASC"
 
         df = pd.read_sql_query(query, conn, params=params)
-        # print(df)
 
         if df.empty:
-            return pd.DataFrame(columns=["Open", "High", "Low", "Close", "Volume", "symbol"])
+            return pd.DataFrame(columns=[
+                "Open", "High", "Low", "Close", "Volume", "symbol",
+                "DMA_200", "Above_200_DMA",
+            ])
 
         df["date"] = pd.to_datetime(df["date"])
         df = df.set_index("date")
         df.columns = ["Open", "High", "Low", "Close", "Volume", "symbol"]
+        df["DMA_200"] = df["Close"].rolling(window=200).mean()
+        df["Above_200_DMA"] = df["Close"] > df["DMA_200"]
 
         return df
 
@@ -65,7 +69,6 @@ def fetch_stock_list():
 
 df = fetch_stock_from_cache("IDX:NIFTY 50" \
 "", from_date="2010-01-01", to_date="2026-12-31")
-df = fetch_stock_from_cache("TCS", from_date="2010-01-01", to_date="2026-12-31")
+df = fetch_stock_from_cache("GLAND", from_date="2010-01-01", to_date="2026-12-31")
 print(df.head())
 print(df.tail())
-

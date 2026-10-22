@@ -69,6 +69,39 @@ Refresh it any time with:
 **Output:** colour-coded Rich tables (green=Leading, cyan=Improving, yellow=Weakening,
 red=Lagging) plus optional CSV export for Excel/Google Sheets.
 
+## Sharing the cached market data
+
+The SQLite cache is intentionally ignored by Git. To share a reproducible cache snapshot
+without committing the raw database, export it as compressed CSV chunks:
+
+```bash
+# On the machine with the warmed cache
+.venv/bin/python data/cache_archive.py export
+git add data/cache_seed
+git commit -m "Add compressed market-data cache snapshot"
+
+# On another clone, after pulling the snapshot
+.venv/bin/python data/cache_archive.py import --replace
+```
+
+On Windows, use `.venv\Scripts\python.exe` in place of `.venv/bin/python`, for example:
+
+```powershell
+.\.venv\Scripts\python.exe data\cache_archive.py export
+git add data\cache_seed
+
+# On another clone, after pulling the snapshot
+.\.venv\Scripts\python.exe data\cache_archive.py import --replace
+```
+
+The default `data/cache_seed/` archive contains symbol-grouped OHLCV chunks, fetch-log and
+data-quality CSVs, plus a manifest with row counts and SHA-256 checksums. Import verifies
+the files before writing and rolls back on an error. `--replace` clears the current cached
+records first; omit it to merge/overwrite imported symbols and dates while keeping other
+existing cache rows. Use `--symbols-per-chunk 10` at export time to create smaller files.
+CSV archives can still be large, so check their total size and Git hosting limits before
+committing them.
+
 ## Web UI
 
 A Streamlit dashboard (cache-first — reads the warmed SQLite cache for instant rendering):

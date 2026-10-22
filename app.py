@@ -223,20 +223,15 @@ if pmeta.get("error"):
     st.stop()
 
 pdf = pd.DataFrame(profiles)
-for _c in ["rotation_score", "rs_percentile", "rs_ratio", "rs_momentum", "pct_from_dma"]:
+for _c in ["rotation_score", "rs_percentile", "rs_ratio", "rs_momentum",
+           "dma_200", "pct_from_dma"]:
     pdf[_c] = pd.to_numeric(pdf[_c], errors="coerce")
-pdf["DMA"] = pdf.apply(
-    lambda r: ("✅ " if r["above_200dma"] else "❌ ") +
-              (f"{r['pct_from_dma']:+.1f}%" if r["pct_from_dma"] is not None else "—")
-    if r["above_200dma"] is not None else "—",
-    axis=1,
-)
 _QC_BADGE = {"CONFIRMED": "✅ confirmed", "PARTIAL": "➖ partial",
              "SUSPECT": "⚠️ review", "SINGLE-SOURCE": "1-source"}
 pdf["Data"] = pdf.get("qc_status").map(lambda s: _QC_BADGE.get(s, "—")) \
     if "qc_status" in pdf.columns else "—"
 view = pdf[["symbol", "quadrant", "rotation_score", "rs_percentile", "rs_ratio",
-            "rs_momentum", "DMA", "Data"]]
+            "rs_momentum", "above_200dma", "dma_200", "pct_from_dma", "Data"]]
 
 st.dataframe(
     view,
@@ -252,7 +247,9 @@ st.dataframe(
             help="Percentile rank of relative strength WITHIN this sector (not the whole index)."),
         "rs_ratio": st.column_config.NumberColumn("RS-Ratio", format="%.2f"),
         "rs_momentum": st.column_config.NumberColumn("RS-Mom", format="%.2f"),
-        "DMA": "200-DMA",
+        "above_200dma": st.column_config.CheckboxColumn("Above 200-DMA"),
+        "dma_200": st.column_config.NumberColumn("200-DMA", format="%.2f"),
+        "pct_from_dma": st.column_config.NumberColumn("% vs 200-DMA", format="%+.2f%%"),
         "Data": st.column_config.TextColumn(
             "Data", help="Dual-source validation status for this stock's prices."),
     },

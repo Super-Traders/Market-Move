@@ -1,7 +1,6 @@
 SUPER MOmentum 
 
-python current_stock_picks.py --as-of 2026-09-25
-
+python current_stock_picks.py --as-of 2026-09-25 --include-below-200dma
 
 
 
@@ -13,6 +12,7 @@ python portfolio_strategy_backtest_rank.py --years 5 --sweep --sweep-top-n 5,10,
 
 python portfolio_strategy_backtest_rank.py --years 10 --sweep --sweep-top-n 10,15,20,25,30 --sweep-exit-ranks 60,70,80
 
+## ARCHIVE 
 
 
 
@@ -375,7 +375,7 @@ python cli.py sectors --timeframe monthly   -b "NIFTY 50"
 
 
 
-1    │ GLAND        │ Healthcare               │ Leading      │      98% │ ✓ +41.1%     │        58% │      91 │
+| 1    │ GLAND        │ Healthcare               │ Leading      │      98% │ ✓ +41.1%     │        58% │      91 │
 │ 2    │ REDINGTON    │ Services                 │ Leading      │      98% │ ✓ +37.7%     │        57% │      90 │
 │ 3    │ WOCKPHARMA   │ Healthcare               │ Leading      │      96% │ ✓ +19.5%     │        58% │      90 │
 │ 4    │ IPCALAB      │ Healthcare               │ Leading      │      94% │ ✓ +17.0%     │        58% │      89 │

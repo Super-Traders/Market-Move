@@ -109,6 +109,7 @@ Reading the numbers: **RS-Ratio** = is the stock beating the index (above 100 = 
 | "Port 8501 in use" | Another copy is already running — use that browser tab, or close it and restart. |
 | Mac blocks the app ("could not verify… malware") | Normal Apple warning, one time only. Click **Done** → System Settings → **Privacy & Security** → **"Open Anyway"** → launch again. See *"If Mac Blocks the App — READ THIS.txt"*. |
 | Page says "no data" | Click **Refresh prices** in the sidebar (needs internet). |
+| Restore a shared cache snapshot | Run `python data/cache_archive.py import --replace` after pulling the `data/cache_seed/` files. |
 | Still stuck | Use **Option B** and let Claude Code fix it, or re-copy the whole folder fresh. |
 
 ---

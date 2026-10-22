@@ -42,6 +42,7 @@ def build_stock_profile(symbol, sector, rrg_result, rs_result, trend_result, sec
         "rs_momentum": rrg_result["rs_momentum"] if rrg_result else None,
         "rs_percentile": rs_result["percentile"] if rs_result and "percentile" in rs_result else None,
         "above_200dma": trend_result["above_200dma"] if trend_result else None,
+        "dma_200": trend_result["dma_200"] if trend_result else None,
         "pct_from_dma": trend_result["pct_from_dma"] if trend_result else None,
         "sector_breadth_200": sector_breadth.get("breadth_200") if sector_breadth else None,
         "breadth_signal": sector_breadth.get("breadth_signal") if sector_breadth else None,
