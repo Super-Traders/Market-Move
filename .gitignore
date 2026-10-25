@@ -4,6 +4,8 @@
 __pycache__/
 *.pyc
 *.pyo
+# Excel lock files while workbooks are open
+~$*.xlsx
 # OS junk
 .DS_Store
 Thumbs.db

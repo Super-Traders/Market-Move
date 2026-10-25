@@ -238,10 +238,21 @@ def compute_ranked_stocks(
     as_of_date: date,
     timeframe: str = "monthly",
 ) -> Dict[str, int]:
-    """Rank point-in-time stocks using the current-picks RRG selection method."""
+    """Return the numeric ranks for point-in-time stocks."""
+    details = compute_ranked_stock_details(panel, index_panel, as_of_date, timeframe)
+    return {row["Symbol"]: row["Rank"] for row in details}
+
+
+def compute_ranked_stock_details(
+    panel: Dict[str, pd.DataFrame],
+    index_panel: Dict[str, pd.DataFrame],
+    as_of_date: date,
+    timeframe: str = "monthly",
+) -> List[dict]:
+    """Return the complete ranked RRG scoring details for a point-in-time date."""
     benchmark_frame = index_panel.get("IDX:NIFTY 500")
     if benchmark_frame is None or benchmark_frame.empty:
-        return {}
+        return []
 
     settings = TIMEFRAME_CONFIGS[timeframe]
     cutoff = pd.Timestamp(as_of_date)
@@ -293,11 +304,19 @@ def compute_ranked_stocks(
             timeframe,
         )
         if scored is not None:
-            ranked_rows.append((symbol, float(scored["Composite Score"])))
+            price_date = history.index[-1].date().isoformat()
+            ranked_rows.append((symbol, float(scored["Composite Score"]), price_date, scored))
     if not ranked_rows:
-        return {}
-    ranked_rows.sort(key=lambda x: x[1], reverse=True)
-    return {symbol: rank + 1 for rank, (symbol, _) in enumerate(ranked_rows)}
+        return []
+    ranked_rows.sort(key=lambda row: row[1], reverse=True)
+    return [
+        {
+            **scored,
+            "Rank": rank + 1,
+            "Price_Date": price_date,
+        }
+        for rank, (_, _, price_date, scored) in enumerate(ranked_rows)
+    ]
 
 
 def build_initial_portfolio(ranked: Dict[str, int], top_n: int) -> List[str]:

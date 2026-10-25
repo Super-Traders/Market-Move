@@ -2,6 +2,8 @@
 
 python current_stock_picks.py --as-of 2026-09-25 --include-below-200dma
 
+python portfolio_smallcase_tracker.py --start-date 2026-04-25 --as-of-date 2026-11-25 --excel-output .\smallcase_portfolio_tracker_from_2026-04-25.xlsx
+
 
 
 python portfolio_strategy_backtest_rank.py --years 10 --top-n 20 --exit-rank 60 --initial-capital  1000000

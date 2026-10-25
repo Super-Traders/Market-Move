@@ -69,6 +69,43 @@ Refresh it any time with:
 **Output:** colour-coded Rich tables (green=Leading, cyan=Improving, yellow=Weakening,
 red=Lagging) plus optional CSV export for Excel/Google Sheets.
 
+## Monthly Smallcase-style portfolio tracker
+
+`portfolio_smallcase_tracker.py` maintains a persistent, monthly 20-stock portfolio in an
+Excel workbook. It uses the RRG composite ranking from
+`portfolio_strategy_backtest_rank.py`, starts with equal rupee allocations on 25 September
+2026, and reviews holdings on the 25th of each month. Existing holdings ranked 1–60 are
+retained; holdings ranked below 60 are sold, and replacements are selected from the
+highest-ranked unowned stocks ranked 1–60. Retained share quantities are not rebalanced.
+Replacement purchases use sale proceeds only, and whole shares are used, with leftover
+cash recorded.
+
+Run it on the monthly date, passing the same workbook each time so it can restore the
+positions and append new ranking and trade history. Close the workbook in Excel before
+each run so the program can update it:
+
+```powershell
+python portfolio_smallcase_tracker.py --as-of-date 2026-04-25
+python portfolio_smallcase_tracker.py --as-of-date 2026-10-25
+```
+
+The default workbook is `smallcase_portfolio_tracker.xlsx`. It contains a guide, saved
+settings/cash balance, current holdings with unrealized P&L, monthly portfolio summary,
+full ranked-universe history (including held/sold/new/unowned status), and a dated trade
+ledger with gross realized P&L. The `Buy_Sell_Ledger` sheet pairs each buy and sale on
+one row (FIFO if a trade is split), and shows open lots with current value and unrealized
+P&L until they are sold. `Monthly_Summary` includes monthly profit/loss in rupees,
+monthly gain as a percentage of opening portfolio value, cumulative return, and CAGR
+annualized using elapsed calendar days from the first execution date. The default start
+date is 25 April 2026. On a new workbook, it
+processes each scheduled date from `--start-date` through `--as-of-date`. An existing
+workbook is persistent state: changing `--start-date` does not replay or reset that
+history. To deliberately rebuild from a different start date, first close the workbook
+and use `--reset-workbook` (or safer, write to a new `--excel-output` path). The scheduled 25th is valued at
+the latest cached Nifty 500 close on or before that date (so weekends do not introduce
+future prices). P&L excludes fees, taxes, and slippage. Use `--help` for options such as
+capital, holdings count, exit rank, cache path, and workbook path.
+
 ## Sharing the cached market data
 
 The SQLite cache is intentionally ignored by Git. To share a reproducible cache snapshot
