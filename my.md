@@ -19,6 +19,9 @@ python portfolio_strategy_backtest_rank.py --years 10 --sweep --sweep-top-n 10,1
 ## ARCHIVE 
 # Export
 python data/cache_archive.py export
+git add .
+git commit -m "update "
+git push
  # Import
 # python data\cache_archive.py import --replace
 
