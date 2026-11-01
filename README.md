@@ -61,9 +61,18 @@ Refresh it any time with:
 # Single-stock full profile
 .venv/bin/python cli.py stock RELIANCE -t weekly
 
+# Look up company names directly with yfinance
+python test_stock.py RELIANCE TCS HDFCBANK
+python test_stock.py RELIANCE TCS --output stock_names.csv
+
 # Override the benchmark on any command
 .venv/bin/python cli.py scan -b "NIFTY 50"
 ```
+
+`test_stock.py` accepts NSE ticker symbols with or without the `.NS` suffix. It uses
+yfinance directly, prints each company name and latest available daily OHLC date/prices
+and their lookup statuses, and optionally writes the results (including any errors) to
+CSV.
 
 **Timeframes:** `weekly | monthly | quarterly | semi-annual | annual`
 **Output:** colour-coded Rich tables (green=Leading, cyan=Improving, yellow=Weakening,
