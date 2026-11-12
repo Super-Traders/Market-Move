@@ -20,6 +20,8 @@ DB_PATH = os.path.join(DATA_DIR, "cache.db")
 NIFTY500_CSV = os.path.join(DATA_DIR, "nifty500_constituents.csv")
 
 DEFAULT_BENCHMARK = "NIFTY 500"
+# DEFAULT_BENCHMARK = "NIFTY 50"
+
 
 # Parallel fetch tuning (replaces the old 0.3s inter-fetch sleep).
 FETCH_MAX_WORKERS = 8

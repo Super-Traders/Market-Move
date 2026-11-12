@@ -7,4 +7,5 @@ yfinance>=0.2.40,<2
 rich>=13.7,<16
 click>=8.1,<9
 streamlit>=1.35,<2          # web UI (app.py); altair ships with it for the RRG chart
+plotly>=5.18,<7             # interactive stock charts (chart.py)
 openpyxl>=3.1,<4            # Excel workbook reports and portfolio tracker

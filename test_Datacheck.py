@@ -36,8 +36,8 @@ def main() -> int:
             COUNT(*) AS record_count
         FROM ohlcv
     """
-    if not args.include_index:
-        query += "\nWHERE symbol NOT LIKE 'IDX:%'"
+    # if not args.include_index:
+    #     query += "\nWHERE symbol NOT LIKE 'IDX:%'"
     query += "\nGROUP BY symbol\nORDER BY symbol"
 
     try:
