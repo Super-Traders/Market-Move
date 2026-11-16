@@ -146,7 +146,7 @@ python cli.py scan -t monthly  -b "NIFTY 50" --top 10
 
 python cli.py scan -t daily  -b "NIFTY MIDCAP 150"
 python cli.py scan -t daily  -b "NIFTY 50"
-python cli.py scan -t daily  -b "BANKNIFTY"
+python cli.py scan -t daily  -b "NIFTY BANK"
 
 
 
@@ -163,7 +163,7 @@ python cli.py sectors --timeframe monthly   -b "NIFTY 50"
 
  python cli.py scan -t weekly -n 50 --export out.csv 
  python cli.py scan -t daily  -n 50 --export out.csv 
-
+ python cli.py scan -t monthly -n 50 --export out.csv 
 
 # Warm the cache once (parallel fetch; first cold run is the slow one).
  python cli.py update
@@ -188,5 +188,6 @@ python cli.py sectors --timeframe monthly   -b "NIFTY 50"
  python cli.py scan -b "NIFTY 50"
 
  python cli.py scan -b "NIFTY 50"  -t daily
-
-#      
+  python cli.py scan -b "NIFTY 50"  -t daily
+NIFTY 200
+  python cli.py scan -b "NIFTY 200"  -t daily

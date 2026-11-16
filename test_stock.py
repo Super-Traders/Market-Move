@@ -103,6 +103,7 @@ def main() -> int:
     rows = [lookup_stock_name(symbol) for symbol in args.symbols]
     results = pd.DataFrame(rows)
     print(results.to_string(index=False))
+    print(f"\nLookup completed for {len(results)} symbol(s).")
 
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)

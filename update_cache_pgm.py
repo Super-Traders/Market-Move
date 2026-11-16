@@ -9,8 +9,7 @@ import os
 import sys
 from datetime import date
 
-# Import the cache module
-from ..cache import get_connection, save_ohlcv, load_ohlcv, needs_update
+from data.cache  import get_connection, save_ohlcv, load_ohlcv, needs_update
 
 
 def update_cache_for_symbol(symbol: str, source: str = "stock"):
@@ -25,7 +24,7 @@ def update_cache_for_symbol(symbol: str, source: str = "stock"):
         bool: True if the update was successful, False otherwise
     """
     # Ensure the database file exists
-    db_path = os.path.join(os.path.dirname(__file__), "..", "cache.db")
+    db_path = os.path.join(os.path.dirname(__file__), "data", "cache.db")
     if not os.path.exists(db_path):
         print(f"Error: Cache database not found at {db_path}")
         return False

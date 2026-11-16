@@ -83,7 +83,7 @@ class LookupStockNameTests(unittest.TestCase):
         ticker.return_value.get_info.return_value = {"longName": "Reliance Industries Limited"}
         ticker.return_value.history.side_effect = RuntimeError("quote unavailable")
 
-        result = lookup_stock_name("RELIANCE")
+        result = lookup_stock_name("TCS.NS")
 
         self.assertEqual(result["Status"], "OK")
         self.assertEqual(result["OHLC_Status"], "ERROR")

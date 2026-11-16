@@ -57,11 +57,58 @@ def fetch_stock_list():
     try:
         query = "SELECT DISTINCT symbol FROM ohlcv"
         df = pd.read_sql_query(query, conn)
+        return df
+    finally:
+        conn.close()
+
+def fetch_quality():
+    """
+    Return a list of all stock symbols in the SQLite cache DB.
+    """
+    conn = sqlite3.connect(DB_PATH, timeout=30)
+    try:
+        query = "SELECT * FROM data_quality"
+        df = pd.read_sql_query(query, conn)
         return df["symbol"].tolist()
     finally:
         conn.close()
 
+def fetch_log():
+    """
+    Return a list of all stock symbols in the SQLite cache DB.
+    """
+    conn = sqlite3.connect(DB_PATH, timeout=30)
+    try:
+        query = "SELECT * FROM fetch_log"
+        df = pd.read_sql_query(query, conn)
+        return df
+    finally:
+        conn.close()
 
+
+def delete_log():
+    """
+    Delete log records for a specific stock symbol.
+    """
+    conn = sqlite3.connect(DB_PATH, timeout=30)
+    try:
+        query = "DELETE FROM fetch_log"
+        conn.execute(query)
+        conn.commit()
+    finally:
+        conn.close()
+
+def delete_data_quality():
+    """
+    Delete data quality records for a specific stock symbol.
+    """
+    conn = sqlite3.connect(DB_PATH, timeout=30)
+    try:
+        query = "DELETE FROM data_quality"
+        conn.execute(query)
+        conn.commit()
+    finally:
+        conn.close()
 
 # Example usage
 # stock_list = fetch_stock_list()
@@ -75,3 +122,11 @@ print(df.head())
 print(df.tail())
 
 
+df = fetch_log()    
+# df = fetch_stock_from_cache(stock, from_date="2010-01-01", to_date="2026-12-31")
+print(df)
+
+# df = fetch_quality()
+# # print(df)
+# delete_log()
+# delete_data_quality()

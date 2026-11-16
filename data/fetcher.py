@@ -84,6 +84,20 @@ _YF_INDEX_TICKERS = {
     "NIFTY BANK": "^NSEBANK",
     "NIFTY IT": "^CNXIT",
     "NIFTY MIDCAP 150": "NIFTYMIDCAP150.NS",
+    "VIX": "^INDIAVIX",
+    "NIFTY 200": "^NSE200",
+    "NIFTY 100": "^NSE100",
+    "NIFTY Next 50": "^NSMIDCP",
+    "BSE SENSEX": "^BSESN",
+    "NIFTY Auto": "^CNXAUTO",
+    "NIFTY FMCG": "^CNXFMCG",
+    "NIFTY Pharma": "^CNXPHARMA",
+    "NIFTY FMCG": "^CNXFMCG",
+    "NIFTY Metals": "^CNXMETAL",
+    "NIFTY Media": "^CNXMEDIA",
+    "NIFTY PSU Bank": "^CNXPSUBANK",
+    "NIFTY Energy": "^CNXENERGY",
+    "NIFTY Financial Services": "^CNXFINANCE",
 }
 
 
