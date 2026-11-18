@@ -144,9 +144,19 @@ python cli.py scan -t weekly  -b "NIFTY 50" --top 10
 python cli.py scan -t monthly  -b "NIFTY 50" --top 10
 
 
-python cli.py scan -t daily  -b "NIFTY MIDCAP 150"
 python cli.py scan -t daily  -b "NIFTY 50"
 python cli.py scan -t daily  -b "NIFTY BANK"
+python cli.py scan -t daily  -b "NIFTY MIDCAP 150"
+python cli.py scan -t daily  -b "NIFTY 200"
+python cli.py scan -t daily  -b "NIFTY 500"
+
+
+IDX:NIFTY 200         2015-11-19  2026-11-16    2,723
+IDX:NIFTY 50          2015-11-16  2026-11-18    2,728
+IDX:NIFTY 500         2015-10-26  2026-11-16    2,740
+IDX:NIFTY BANK        2015-11-16  2026-11-16    2,726
+IDX:NIFTY MIDCAP 150  2015-11-16  2026-11-16    2,726
+
 
 
 
@@ -158,7 +168,6 @@ python cli.py sectors --timeframe monthly
 python cli.py sectors --timeframe daily  -b "NIFTY 50"   
 python cli.py sectors --timeframe weekly    -b "NIFTY 50"   
 python cli.py sectors --timeframe monthly   -b "NIFTY 50"   
-
 
 
  python cli.py scan -t weekly -n 50 --export out.csv 
