@@ -26,11 +26,11 @@ class YahooFinanceDateRangeTests(unittest.TestCase):
 
         with patch.dict(sys.modules, {"yfinance": yfinance}):
             result = _fetch_yfinance(
-                "TCS", date(2026, 11, 1), date(2026, 11, 23)
+                "TCS", date(2026, 11, 1), date(2026, 11, 24)
             )
 
-        self.assertEqual(result.index[-1].date(), date(2026, 11, 23))
-        self.assertEqual(yfinance.download.call_args.kwargs["end"], date(2026, 11, 24))
+        self.assertEqual(result.index[-1].date(), date(2026, 11,24))
+        self.assertEqual(yfinance.download.call_args.kwargs["end"], date(2026, 11, 25))
 
 
 if __name__ == "__main__":

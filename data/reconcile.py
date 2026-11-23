@@ -149,7 +149,12 @@ def quick_fill(symbols, benchmark, years_back=7, only_missing=True, progress_cb=
             return sym, "failed"
         c = get_connection()
         try:
-            c.execute("DELETE FROM ohlcv WHERE symbol=?", (sym,))
+            cached_latest = c.execute(
+                "SELECT MAX(date) FROM ohlcv WHERE symbol=?", (sym,)
+            ).fetchone()[0]
+            fetched_latest = str(pd.Timestamp(canon.index.max()).date())
+            if cached_latest is None or fetched_latest >= cached_latest:
+                c.execute("DELETE FROM ohlcv WHERE symbol=?", (sym,))
             save_ohlcv(c, sym, canon, source="stock")
             save_quality(c, sym, qc)
         finally:
@@ -224,7 +229,12 @@ def rebuild_universe(symbols, benchmark, years_back=7, progress_cb=None, max_wor
             return sym, {"status": "FAILED", "n_rows": 0}
         c = get_connection()
         try:
-            c.execute("DELETE FROM ohlcv WHERE symbol=?", (sym,))
+            cached_latest = c.execute(
+                "SELECT MAX(date) FROM ohlcv WHERE symbol=?", (sym,)
+            ).fetchone()[0]
+            fetched_latest = str(pd.Timestamp(canon.index.max()).date())
+            if cached_latest is None or fetched_latest >= cached_latest:
+                c.execute("DELETE FROM ohlcv WHERE symbol=?", (sym,))
             save_ohlcv(c, sym, canon, source="stock")
             save_quality(c, sym, qc)
         finally:

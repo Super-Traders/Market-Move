@@ -132,5 +132,5 @@ print("fetch Log")
 df = fetch_log()    
 print(df)
 
-# delete_log()
-# delete_data_quality()
+delete_log()
+delete_data_quality()
