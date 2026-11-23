@@ -1,5 +1,5 @@
 """Export and restore the SQLite market-data cache as verified CSV chunks."""
-
+ 
 from __future__ import annotations
 
 import argparse
