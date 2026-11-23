@@ -13,3 +13,4 @@ Thumbs.db
 data/cache.db.backup
 data/cache.db
 data/cache.*
+*.venv*

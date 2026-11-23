@@ -108,7 +108,11 @@ def _fetch_yfinance(symbol, from_date, to_date, is_index=False):
             ticker = _YF_INDEX_TICKERS.get(symbol, f"{symbol.replace(' ', '')}.NS")
         else:
             ticker = f"{symbol}.NS"
-        df = yf.download(ticker, start=from_date, end=to_date, progress=False, auto_adjust=True)
+        # yfinance treats `end` as exclusive; advance it so today's EOD bar is included.
+        df = yf.download(
+            ticker, start=from_date, end=to_date + timedelta(days=1),
+            progress=False, auto_adjust=True,
+        )
         if df is not None and not df.empty:
             if isinstance(df.columns, pd.MultiIndex):
                 df.columns = df.columns.get_level_values(0)

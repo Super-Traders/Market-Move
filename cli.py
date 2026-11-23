@@ -323,10 +323,10 @@ def update(years):
         summary = rebuild_universe(all_stocks, DEFAULT_BENCHMARK, years_back=years, progress_cb=cb)
 
     console.print(
-        f"\n  [green]✓ {summary.get('CONFIRMED',0)} confirmed[/green] · "
-        f"[yellow]{summary.get('PARTIAL',0)} partial[/yellow] · "
-        f"[red]{summary.get('SUSPECT',0)} to review[/red] · "
-        f"{summary.get('SINGLE-SOURCE',0)} single-source · "
+        f"\n  [green]{summary.get('CONFIRMED',0)} confirmed[/green] | "
+        f"[yellow]{summary.get('PARTIAL',0)} partial[/yellow] | "
+        f"[red]{summary.get('SUSPECT',0)} to review[/red] | "
+        f"{summary.get('SINGLE-SOURCE',0)} single-source | "
         f"{summary.get('FAILED',0)} failed\n"
     )
 

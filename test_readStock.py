@@ -115,18 +115,22 @@ def delete_data_quality():
 # print(stock_list)
 stock = "ZYDUSWELL"
 
-df = fetch_stock_from_cache("IDX:NIFTY 50" "", from_date="2010-01-01", to_date="2026-12-31")
+df = fetch_stock_from_cache("IDX:NIFTY 50", from_date="2010-01-01", to_date="2026-12-31")
 # df = fetch_stock_from_cache(stock, from_date="2010-01-01", to_date="2026-12-31")
 df.to_csv(f"{stock}_details.csv")
 print(df.head())
 print(df.tail())
 
 
-df = fetch_log()    
 # df = fetch_stock_from_cache(stock, from_date="2010-01-01", to_date="2026-12-31")
+# print(df)
+print("fetch quality")
+df = fetch_quality()
 print(df)
 
-# df = fetch_quality()
-# # print(df)
+print("fetch Log")
+df = fetch_log()    
+print(df)
+
 # delete_log()
 # delete_data_quality()

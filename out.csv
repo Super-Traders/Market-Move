@@ -1,501 +1,501 @@
 symbol,sector,rotation_score,quadrant,direction,rs_ratio,rs_momentum,rs_percentile,above_200dma,pct_from_dma,sector_breadth_200,breadth_signal
-DIVISLAB,Healthcare,95.1,Leading,accelerating,101.65,100.75,99.0,True,52.72,77.1,Strong
-GLAND,Healthcare,94.6,Leading,accelerating,101.28,100.75,97.7,True,43.01,77.1,Strong
-PVRINOX,Media Entertainment & Publication,91.3,Leading,accelerating,101.75,100.69,98.1,True,47.87,60.0,Mixed
-GLENMARK,Healthcare,90.9,Leading,accelerating,101.51,100.27,87.1,True,17.51,77.1,Strong
-KALYANKJIL,Consumer Durables,89.4,Leading,accelerating,101.64,101.18,98.3,True,48.35,50.0,Mixed
-WELCORP,Capital Goods,89.1,Leading,accelerating,100.62,100.77,99.4,True,40.0,46.8,Mixed
-GABRIEL,Automobile and Auto Components,88.6,Leading,accelerating,101.15,101.48,94.6,True,31.55,52.6,Mixed
-PAYTM,Financial Services,88.6,Leading,accelerating,101.5,100.88,97.1,True,45.68,48.0,Mixed
-MEDANTA,Healthcare,88.5,Leading,accelerating,100.89,101.29,80.2,True,15.91,77.1,Strong
-RKFORGE,Automobile and Auto Components,88.4,Leading,accelerating,101.47,100.07,94.0,True,28.63,52.6,Mixed
-PETRONET,Oil Gas & Consumable Fuels,88.3,Leading,accelerating,101.63,101.34,86.7,True,17.22,64.7,Mixed
-CAPLIPOINT,Healthcare,87.8,Leading,accelerating,100.2,100.71,78.2,True,9.31,77.1,Strong
-SHYAMMETL,Capital Goods,87.8,Leading,accelerating,101.72,101.68,95.6,True,36.29,46.8,Mixed
-MOTILALOFS,Financial Services,87.4,Leading,accelerating,101.78,100.95,93.8,True,37.84,48.0,Mixed
-BOSCHLTD,Automobile and Auto Components,86.8,Leading,accelerating,100.94,100.12,89.4,True,22.73,52.6,Mixed
-PNB,Financial Services,86.8,Leading,accelerating,101.99,100.63,92.1,True,26.57,48.0,Mixed
-CARTRADE,Consumer Services,85.7,Leading,accelerating,100.54,100.48,80.7,True,12.71,62.1,Mixed
-JSWINFRA,Services,85.7,Leading,accelerating,100.59,100.95,83.6,True,13.0,57.1,Mixed
-GRAPHITE,Capital Goods,85.5,Leading,accelerating,101.09,100.07,89.0,True,15.26,46.8,Mixed
-ASAHIINDIA,Automobile and Auto Components,85.3,Leading,accelerating,102.12,101.0,85.2,True,22.78,52.6,Mixed
-ACE,Capital Goods,85.1,Leading,accelerating,100.93,100.77,87.7,True,19.34,46.8,Mixed
-PPLPHARMA,Healthcare,85.1,Leading,decelerating,101.29,100.69,91.9,True,35.56,77.1,Strong
-ENGINERSIN,Construction,84.9,Leading,accelerating,101.39,100.67,96.5,True,32.38,30.8,Weak
-GAIL,Oil Gas & Consumable Fuels,84.9,Leading,accelerating,101.31,100.98,76.9,True,13.06,64.7,Mixed
-GLAXO,Healthcare,84.9,Leading,accelerating,100.09,100.9,69.9,True,6.97,77.1,Strong
-UNOMINDA,Automobile and Auto Components,84.8,Leading,accelerating,102.2,101.24,83.8,True,20.49,52.6,Mixed
-LODHA,Realty,84.3,Leading,accelerating,100.93,100.89,81.1,True,19.41,54.5,Mixed
-APLAPOLLO,Capital Goods,84.2,Leading,accelerating,100.58,100.98,85.4,True,11.62,46.8,Mixed
-AEGISLOG,Oil Gas & Consumable Fuels,84.1,Leading,decelerating,100.56,100.01,96.3,True,22.37,64.7,Mixed
-WOCKPHARMA,Healthcare,83.9,Leading,decelerating,100.44,101.05,88.4,True,15.48,77.1,Strong
-SAREGAMA,Media Entertainment & Publication,83.8,Leading,decelerating,101.63,101.2,97.9,True,49.4,60.0,Mixed
-POLYMED,Healthcare,83.3,Leading,accelerating,100.47,100.67,65.5,True,8.92,77.1,Strong
-BAJFINANCE,Financial Services,82.9,Leading,accelerating,101.22,100.61,80.9,True,14.68,48.0,Mixed
-BEML,Capital Goods,82.9,Leading,accelerating,101.07,101.19,81.5,True,16.27,46.8,Mixed
-SAILIFE,Healthcare,82.8,N/A,N/A,,,99.6,True,56.33,77.1,Strong
-FLUOROCHEM,Chemicals,82.4,Leading,accelerating,101.02,100.51,89.2,True,19.96,30.8,Weak
-MGL,Oil Gas & Consumable Fuels,82.2,Leading,accelerating,100.34,101.83,69.2,True,7.47,64.7,Mixed
-EMCURE,Healthcare,82.0,N/A,N/A,,,97.3,True,34.97,77.1,Strong
-SUNTV,Media Entertainment & Publication,81.8,Leading,decelerating,100.78,100.17,92.3,True,19.63,60.0,Mixed
-LICHSGFIN,Financial Services,81.7,Leading,accelerating,101.51,102.2,77.3,True,11.43,48.0,Mixed
-INDHOTEL,Consumer Services,81.6,Leading,decelerating,101.71,100.91,90.4,True,27.51,62.1,Mixed
-ETERNAL,Consumer Services,81.5,Leading,decelerating,101.3,101.34,90.2,True,28.2,62.1,Mixed
-CHOLAFIN,Financial Services,81.4,Leading,accelerating,100.87,100.07,76.5,True,10.78,48.0,Mixed
-REDINGTON,Services,81.4,Leading,decelerating,100.6,100.39,92.9,True,21.97,57.1,Mixed
-PRESTIGE,Realty,81.0,Leading,accelerating,100.95,100.54,71.7,True,12.07,54.5,Mixed
-MARICO,Fast Moving Consumer Goods,80.4,Leading,accelerating,101.65,101.91,82.7,True,11.82,32.1,Weak
-MANKIND,Healthcare,80.2,Leading,decelerating,100.86,100.9,78.0,True,13.29,77.1,Strong
-ZYDUSLIFE,Healthcare,80.0,Leading,decelerating,100.49,100.5,77.5,True,13.49,77.1,Strong
-JYOTICNC,Capital Goods,79.9,Leading,decelerating,101.21,100.47,94.4,True,28.32,46.8,Mixed
-ANTHEM,Healthcare,79.8,N/A,N/A,,,91.1,True,20.33,77.1,Strong
-DRREDDY,Healthcare,79.4,Leading,decelerating,100.4,100.01,75.7,True,10.49,77.1,Strong
-OBEROIRLTY,Realty,79.0,Leading,accelerating,100.2,100.15,66.1,True,6.7,54.5,Mixed
-AFFLE,Information Technology,78.9,Leading,accelerating,100.66,102.52,67.2,True,7.03,51.9,Mixed
-INDGN,Healthcare,78.8,N/A,N/A,,,88.1,True,26.53,77.1,Strong
-THELEELA,Consumer Services,78.8,N/A,N/A,,,96.9,True,37.25,62.1,Mixed
-TVSMOTOR,Automobile and Auto Components,78.8,Leading,decelerating,101.01,100.28,87.9,True,17.61,52.6,Mixed
-CHENNPETRO,Oil Gas & Consumable Fuels,78.7,Weakening,accelerating,100.8,98.64,95.0,True,26.33,64.7,Mixed
-CDSL,Financial Services,78.3,Leading,accelerating,101.82,101.57,67.6,True,11.75,48.0,Mixed
-UNIONBANK,Financial Services,78.2,Leading,decelerating,101.31,100.08,88.8,True,16.31,48.0,Mixed
-ATHERENERG,Automobile and Auto Components,78.0,N/A,N/A,,,100.0,True,71.25,52.6,Mixed
-DEVYANI,Consumer Services,77.9,Leading,accelerating,100.33,101.46,58.4,True,7.2,62.1,Mixed
-CEATLTD,Automobile and Auto Components,77.8,Leading,accelerating,100.25,100.82,63.6,True,2.28,52.6,Mixed
-LAURUSLABS,Healthcare,77.8,Weakening,decelerating,101.27,99.07,99.8,True,60.79,77.1,Strong
-ACUTAAS,Healthcare,77.5,Weakening,decelerating,101.18,98.94,98.8,True,38.54,77.1,Strong
-KOTAKBANK,Financial Services,77.2,Leading,decelerating,101.56,101.08,85.9,True,21.38,48.0,Mixed
-DLF,Realty,77.1,Leading,decelerating,101.44,101.31,81.9,True,21.37,54.5,Mixed
-M&M,Automobile and Auto Components,77.0,Leading,accelerating,100.48,100.47,61.3,True,5.34,52.6,Mixed
-ULTRACEMCO,Construction Materials,77.0,Leading,accelerating,100.41,101.84,70.5,True,5.49,36.4,Weak
-COFORGE,Information Technology,76.9,Leading,decelerating,101.01,100.09,83.0,True,30.47,51.9,Mixed
-AEGISVOPAK,Oil Gas & Consumable Fuels,76.8,N/A,N/A,,,89.6,True,19.82,64.7,Mixed
-ICICIBANK,Financial Services,76.8,Leading,decelerating,101.86,101.32,85.0,True,17.09,48.0,Mixed
-HDFCAMC,Financial Services,76.7,Leading,accelerating,100.2,101.46,63.2,True,4.99,48.0,Mixed
-LEMONTREE,Consumer Services,76.4,Leading,accelerating,101.04,102.14,54.3,True,7.7,62.1,Mixed
-JSWSTEEL,Metals & Mining,76.2,Leading,accelerating,101.04,100.56,73.2,True,7.98,27.8,Weak
-CEMPRO,Construction,76.1,Leading,decelerating,100.65,100.21,92.7,True,28.38,30.8,Weak
-HDFCBANK,Financial Services,76.0,Leading,accelerating,100.26,101.79,61.1,True,3.67,48.0,Mixed
-IGIL,Services,76.0,N/A,N/A,,,91.7,True,28.54,57.1,Mixed
-FORCEMOT,Automobile and Auto Components,75.8,Improving,accelerating,99.82,100.33,72.3,True,1.68,52.6,Mixed
-MCX,Financial Services,75.7,Weakening,accelerating,101.46,99.65,96.0,True,28.59,48.0,Mixed
-KFINTECH,Financial Services,75.6,Leading,accelerating,100.32,101.48,59.9,True,5.01,48.0,Mixed
-TECHM,Information Technology,75.6,Leading,decelerating,100.98,100.35,79.2,True,15.77,51.9,Mixed
-INDIGO,Services,75.5,Leading,decelerating,101.2,101.18,75.9,True,15.87,57.1,Mixed
-ANANDRATHI,Financial Services,75.4,Weakening,accelerating,101.15,99.79,95.2,True,25.62,48.0,Mixed
-BALRAMCHIN,Fast Moving Consumer Goods,75.4,Leading,decelerating,100.76,100.71,90.0,True,15.77,32.1,Weak
-GODREJIND,Diversified,75.4,Leading,accelerating,100.16,101.46,67.8,True,4.49,33.3,Weak
-AUROPHARMA,Healthcare,75.3,Weakening,decelerating,101.14,97.82,92.5,True,23.29,77.1,Strong
-LTTS,Information Technology,74.9,Leading,decelerating,101.27,100.76,77.1,True,22.29,51.9,Mixed
-MAHABANK,Financial Services,74.9,Weakening,accelerating,101.17,99.56,93.6,True,18.56,48.0,Mixed
-BLUEJET,Healthcare,74.8,Leading,decelerating,100.3,100.95,62.6,True,10.22,77.1,Strong
-MRPL,Oil Gas & Consumable Fuels,74.3,Weakening,accelerating,100.18,98.87,82.5,True,6.19,64.7,Mixed
-BHARTIARTL,Telecommunication,74.2,Leading,decelerating,101.38,101.08,76.3,True,12.2,50.0,Mixed
-LTFOODS,Fast Moving Consumer Goods,74.1,Leading,accelerating,100.21,100.82,64.9,True,5.5,32.1,Weak
-PNBHOUSING,Financial Services,73.5,Leading,decelerating,100.45,100.35,75.5,True,10.64,48.0,Mixed
-POONAWALLA,Financial Services,73.5,Leading,decelerating,100.87,100.78,75.3,True,10.16,48.0,Mixed
-EIHOTEL,Consumer Services,73.3,Improving,accelerating,99.94,101.27,59.7,True,1.58,62.1,Mixed
-FEDERALBNK,Financial Services,73.1,Weakening,accelerating,100.92,98.47,88.6,True,14.98,48.0,Mixed
-LALPATHLAB,Healthcare,73.1,Weakening,decelerating,100.8,99.76,86.3,True,20.45,77.1,Strong
-ANGELONE,Financial Services,72.7,Weakening,accelerating,101.19,99.81,87.5,True,19.32,48.0,Mixed
-NAVINFLUOR,Chemicals,72.5,Weakening,accelerating,101.68,99.61,96.7,True,35.86,30.8,Weak
-SOLARINDS,Chemicals,72.5,Leading,decelerating,100.42,100.61,82.3,True,12.6,30.8,Weak
-HFCL,Telecommunication,72.2,Weakening,decelerating,100.33,99.1,99.2,True,24.25,50.0,Mixed
-SYNGENE,Healthcare,72.2,Leading,accelerating,100.17,101.05,33.7,True,5.16,77.1,Strong
-HONASA,Fast Moving Consumer Goods,72.1,Weakening,accelerating,101.07,99.38,94.8,True,27.05,32.1,Weak
-IIFL,Financial Services,72.1,Weakening,accelerating,101.1,99.46,85.7,True,19.18,48.0,Mixed
-SONACOMS,Automobile and Auto Components,72.1,Weakening,decelerating,101.15,97.74,97.5,True,38.64,52.6,Mixed
-BHEL,Capital Goods,72.0,Weakening,accelerating,100.63,98.26,86.1,True,19.35,46.8,Mixed
-NUVOCO,Construction Materials,71.7,Leading,accelerating,100.2,101.36,55.5,True,5.05,36.4,Weak
-NYKAA,Consumer Services,71.7,Weakening,decelerating,101.08,98.81,90.9,True,23.19,62.1,Mixed
-CGCL,Financial Services,71.6,Weakening,accelerating,100.63,99.25,84.4,True,15.99,48.0,Mixed
-IPCALAB,Healthcare,71.5,Weakening,decelerating,100.34,98.76,81.7,True,11.4,77.1,Strong
-DIXON,Consumer Durables,71.4,Leading,accelerating,100.13,101.28,46.8,True,5.56,50.0,Mixed
-GRANULES,Healthcare,71.4,Weakening,decelerating,100.14,98.05,81.3,True,8.76,77.1,Strong
-LINDEINDIA,Chemicals,71.3,Improving,accelerating,99.63,100.08,71.9,True,1.77,30.8,Weak
-CYIENT,Information Technology,71.1,Leading,decelerating,100.67,100.93,66.3,True,15.71,51.9,Mixed
-TARIL,Capital Goods,71.1,Improving,accelerating,99.52,102.11,62.2,True,2.33,46.8,Mixed
-DATAPATTNS,Capital Goods,71.0,Weakening,accelerating,100.18,98.86,83.2,True,8.73,46.8,Mixed
-HAL,Capital Goods,71.0,Leading,decelerating,100.46,100.71,69.0,True,7.75,46.8,Mixed
-KPRMILL,Textiles,71.0,Leading,decelerating,100.6,100.71,72.8,True,13.81,40.0,Mixed
-OFSS,Information Technology,71.0,Improving,accelerating,99.83,100.08,59.0,True,4.41,51.9,Mixed
-RADICO,Fast Moving Consumer Goods,70.9,Weakening,accelerating,100.91,99.48,91.5,True,24.41,32.1,Weak
-ACMESOLAR,Power,70.6,N/A,N/A,,,95.4,True,24.11,23.5,Weak
-VIJAYA,Healthcare,70.5,Weakening,decelerating,100.34,99.95,78.8,True,12.65,77.1,Strong
-HINDPETRO,Oil Gas & Consumable Fuels,70.4,Improving,accelerating,99.95,100.27,49.9,True,3.47,64.7,Mixed
-NEULANDLAB,Healthcare,70.4,Weakening,decelerating,100.64,98.8,78.6,True,19.47,77.1,Strong
-SYRMA,Capital Goods,70.4,Weakening,decelerating,100.47,98.89,95.8,True,23.43,46.8,Mixed
-ABDL,Fast Moving Consumer Goods,70.3,N/A,N/A,,,89.8,True,30.13,32.1,Weak
-KARURVYSYA,Financial Services,70.1,Weakening,decelerating,101.4,99.55,94.2,True,22.02,48.0,Mixed
-PHOENIXLTD,Realty,70.1,Weakening,decelerating,101.78,99.67,90.6,True,22.81,54.5,Mixed
-CRAFTSMAN,Automobile and Auto Components,70.0,Weakening,decelerating,100.9,99.21,91.3,True,21.4,52.6,Mixed
-WELSPUNLIV,Textiles,70.0,Weakening,decelerating,101.38,98.49,98.5,True,49.37,40.0,Mixed
-TBOTEK,Consumer Services,69.8,N/A,N/A,,,71.1,True,12.69,62.1,Mixed
-HCLTECH,Information Technology,69.6,Leading,decelerating,100.35,100.22,62.0,True,7.05,51.9,Mixed
-PTCIL,Capital Goods,69.5,Weakening,decelerating,101.18,99.67,93.3,True,27.41,46.8,Mixed
-RBLBANK,Financial Services,69.5,Weakening,accelerating,100.45,99.05,78.4,True,9.56,48.0,Mixed
-FINCABLES,Capital Goods,69.4,Weakening,decelerating,100.58,99.71,93.1,True,19.45,46.8,Mixed
-AIIL,Financial Services,69.3,N/A,N/A,,,77.8,True,12.48,48.0,Mixed
-GESHIP,Services,69.3,Weakening,decelerating,100.11,98.43,86.9,True,8.97,57.1,Mixed
-NAUKRI,Consumer Services,69.0,Leading,decelerating,100.24,100.65,54.5,True,5.59,62.1,Mixed
-FSL,Services,68.9,Leading,decelerating,100.76,101.05,57.0,True,12.86,57.1,Mixed
-NAM-INDIA,Financial Services,68.7,Weakening,accelerating,100.18,99.21,76.1,True,5.67,48.0,Mixed
-BANKINDIA,Financial Services,68.4,Weakening,accelerating,100.55,99.62,75.1,True,7.31,48.0,Mixed
-KAJARIACER,Consumer Durables,68.3,Weakening,accelerating,100.28,99.76,73.6,True,9.02,50.0,Mixed
-ZENSARTECH,Information Technology,68.2,Leading,decelerating,100.6,101.91,58.0,True,7.95,51.9,Mixed
-BAJAJHLDNG,Financial Services,68.1,Leading,decelerating,100.21,101.25,60.1,True,5.31,48.0,Mixed
-SBIN,Financial Services,68.1,Weakening,accelerating,100.06,99.19,74.4,True,4.65,48.0,Mixed
-ABCAPITAL,Financial Services,68.0,Weakening,accelerating,100.72,98.96,74.0,True,10.91,48.0,Mixed
-INDIANB,Financial Services,67.9,Weakening,accelerating,100.59,99.99,73.8,True,8.58,48.0,Mixed
-STARHEALTH,Financial Services,67.8,Weakening,accelerating,100.27,98.72,73.4,True,8.6,48.0,Mixed
-ADANIPORTS,Services,67.7,Weakening,decelerating,100.76,99.01,82.1,True,13.81,57.1,Mixed
-CHALET,Consumer Services,67.7,Improving,accelerating,99.54,101.2,43.7,True,1.24,62.1,Mixed
-COHANCE,Healthcare,67.7,Leading,decelerating,100.3,100.87,42.2,True,11.8,77.1,Strong
-MINDACORP,Automobile and Auto Components,67.7,Weakening,decelerating,100.93,99.34,84.8,True,18.76,52.6,Mixed
-GODREJPROP,Realty,67.5,Improving,accelerating,99.96,100.26,47.4,True,4.06,54.5,Mixed
-MOTHERSON,Automobile and Auto Components,67.5,Weakening,decelerating,100.64,98.14,84.2,True,16.47,52.6,Mixed
-SAPPHIRE,Consumer Services,67.2,Leading,decelerating,100.35,101.25,49.3,True,8.61,62.1,Mixed
-JINDALSAW,Capital Goods,67.1,Weakening,decelerating,100.2,99.43,86.5,True,8.73,46.8,Mixed
-TRENT,Consumer Services,66.9,Leading,decelerating,100.76,101.54,48.4,True,12.94,62.1,Mixed
-TATACAP,Financial Services,66.7,N/A,N/A,,,70.3,True,4.05,48.0,Mixed
-UNITDSPR,Fast Moving Consumer Goods,66.7,Leading,decelerating,100.21,100.01,65.1,True,5.56,32.1,Weak
-BANKBARODA,Financial Services,66.6,Weakening,accelerating,100.23,99.69,70.1,True,5.93,48.0,Mixed
-BSE,Financial Services,66.5,Weakening,decelerating,100.7,98.45,84.0,True,15.51,48.0,Mixed
-NUVAMA,Financial Services,66.3,Weakening,decelerating,100.78,99.77,83.4,True,17.86,48.0,Mixed
-360ONE,Financial Services,66.1,Weakening,accelerating,101.4,99.92,68.6,True,8.54,48.0,Mixed
-ADANIENT,Metals & Mining,65.8,Improving,accelerating,99.83,100.49,57.8,True,2.26,27.8,Weak
-CASTROLIND,Oil Gas & Consumable Fuels,65.8,Improving,decelerating,99.92,100.74,65.3,True,4.64,64.7,Mixed
-MPHASIS,Information Technology,65.8,Leading,decelerating,100.52,100.53,51.1,True,5.73,51.9,Mixed
-ONESOURCE,Healthcare,65.7,N/A,N/A,,,50.9,True,4.01,77.1,Strong
-GRASIM,Construction Materials,65.6,Improving,accelerating,99.48,100.11,52.4,True,1.38,36.4,Weak
-ADANIGREEN,Power,65.4,Weakening,accelerating,100.44,99.39,80.5,True,12.93,23.5,Weak
-BAJAJFINSV,Financial Services,65.3,Improving,accelerating,99.54,100.87,44.9,True,1.0,48.0,Mixed
-TITAN,Consumer Durables,65.3,Weakening,decelerating,100.5,98.5,79.4,True,8.49,50.0,Mixed
-ADANIENSOL,Power,65.1,Weakening,accelerating,100.16,98.45,79.8,True,7.83,23.5,Weak
-BHARTIHEXA,Telecommunication,65.1,N/A,N/A,,,64.7,True,7.52,50.0,Mixed
-CUB,Financial Services,64.8,Weakening,decelerating,100.9,99.27,79.0,True,11.51,48.0,Mixed
-ITCHOTELS,Consumer Services,64.8,N/A,N/A,,,56.8,True,5.67,62.1,Mixed
-TATACONSUM,Fast Moving Consumer Goods,64.7,Improving,accelerating,99.83,100.21,52.2,True,2.66,32.1,Weak
-AJANTPHARM,Healthcare,64.0,Lagging,decelerating,99.7,98.08,74.6,True,3.49,77.1,Strong
-IDFCFIRSTB,Financial Services,63.6,Weakening,accelerating,100.08,99.09,61.5,True,3.93,48.0,Mixed
-LLOYDSME,Metals & Mining,63.4,Improving,decelerating,99.93,100.56,79.6,True,7.8,27.8,Weak
-TATACOMM,Telecommunication,63.3,Weakening,accelerating,100.36,99.23,59.3,True,9.04,50.0,Mixed
-TORNTPHARM,Healthcare,63.2,Lagging,decelerating,99.53,98.59,72.1,True,3.09,77.1,Strong
-ZENTEC,Capital Goods,63.0,Weakening,decelerating,100.43,99.76,74.8,True,7.46,46.8,Mixed
-WHIRLPOOL,Consumer Durables,62.8,Improving,accelerating,99.21,100.76,36.6,True,0.02,50.0,Mixed
-PGEL,Consumer Durables,62.5,Improving,decelerating,99.96,100.49,64.2,True,3.91,50.0,Mixed
-GVT&D,Capital Goods,62.4,Lagging,accelerating,99.7,99.37,80.0,True,5.14,46.8,Mixed
-LENSKART,Consumer Services,62.4,N/A,N/A,,,,True,29.38,62.1,Mixed
-MEESHO,Consumer Services,62.4,N/A,N/A,,,,True,37.35,62.1,Mixed
-PWL,Consumer Services,62.4,N/A,N/A,,,,True,13.09,62.1,Mixed
-URBANCO,Consumer Services,62.4,N/A,N/A,,,,True,22.99,62.1,Mixed
-PATANJALI,Fast Moving Consumer Goods,62.3,Improving,accelerating,99.81,101.6,45.5,True,0.07,32.1,Weak
-HBLENGINE,Capital Goods,62.0,Weakening,accelerating,100.18,99.77,57.6,True,7.01,46.8,Mixed
-JUBLPHARMA,Healthcare,61.9,Improving,decelerating,99.86,100.64,47.0,True,2.66,77.1,Strong
-APOLLOHOSP,Healthcare,61.7,Lagging,decelerating,99.67,99.9,68.0,True,4.66,77.1,Strong
-ABBOTINDIA,Healthcare,61.5,Improving,decelerating,99.35,100.71,45.9,True,0.85,77.1,Strong
-APARINDS,Capital Goods,61.5,Lagging,decelerating,99.94,98.37,84.6,True,7.83,46.8,Mixed
-ABB,Capital Goods,61.2,Lagging,accelerating,99.81,98.71,76.7,True,5.01,46.8,Mixed
-PERSISTENT,Information Technology,61.2,Weakening,decelerating,100.86,99.78,66.5,True,13.28,51.9,Mixed
-HYUNDAI,Automobile and Auto Components,60.1,N/A,N/A,,,48.9,True,3.48,52.6,Mixed
-LGEINDIA,Consumer Durables,60.0,N/A,N/A,,,,True,10.29,50.0,Mixed
-GROWW,Financial Services,59.6,N/A,N/A,,,,True,18.92,48.0,Mixed
-PINELABS,Financial Services,59.6,N/A,N/A,,,,True,2.98,48.0,Mixed
-PIRAMALFIN,Financial Services,59.6,N/A,N/A,,,,True,7.74,48.0,Mixed
-CPPLUS,Capital Goods,59.4,N/A,N/A,,,,True,41.58,46.8,Mixed
-TMCV,Capital Goods,59.4,N/A,N/A,,,,True,1.31,46.8,Mixed
-ASHOKLEY,Capital Goods,59.2,Lagging,accelerating,99.84,99.32,70.9,True,1.57,46.8,Mixed
-ASTERDM,Healthcare,58.7,Lagging,decelerating,99.27,98.6,59.5,True,0.59,77.1,Strong
-SUNPHARMA,Healthcare,58.3,Lagging,decelerating,99.38,98.13,58.2,True,3.75,77.1,Strong
-SAGILITY,Information Technology,58.2,N/A,N/A,,,43.9,True,2.38,51.9,Mixed
-CRISIL,Financial Services,58.0,Improving,decelerating,99.56,100.38,52.6,True,1.16,48.0,Mixed
-IOC,Oil Gas & Consumable Fuels,58.0,Lagging,accelerating,99.64,99.59,57.4,True,0.41,64.7,Mixed
-JSWCEMENT,Construction Materials,57.3,N/A,N/A,,,,True,1.09,36.4,Weak
-POWERINDIA,Capital Goods,57.3,Lagging,decelerating,99.74,98.74,72.6,True,5.71,46.8,Mixed
-BAJAJ-AUTO,Automobile and Auto Components,57.1,Lagging,decelerating,99.92,98.16,68.8,True,5.43,52.6,Mixed
-CARBORUNIV,Capital Goods,56.8,Lagging,decelerating,99.91,99.34,71.3,True,4.89,46.8,Mixed
-EICHERMOT,Automobile and Auto Components,56.4,Lagging,decelerating,99.87,99.25,66.9,True,4.05,52.6,Mixed
-IDEA,Telecommunication,56.2,Lagging,accelerating,99.87,97.96,60.5,True,1.5,50.0,Mixed
-BALKRISIND,Automobile and Auto Components,56.1,Lagging,accelerating,99.44,99.57,58.8,True,1.44,52.6,Mixed
-ELGIEQUIP,Capital Goods,56.1,Lagging,decelerating,99.93,98.55,69.4,True,5.4,46.8,Mixed
-ADANIPOWER,Power,55.7,Lagging,accelerating,99.92,99.31,74.2,True,5.82,23.5,Weak
-RELIANCE,Oil Gas & Consumable Fuels,55.6,Lagging,accelerating,99.7,99.36,50.5,True,1.44,64.7,Mixed
-GMRAIRPORT,Services,55.0,Lagging,accelerating,99.52,98.65,53.2,True,0.5,57.1,Mixed
-CGPOWER,Capital Goods,54.9,Lagging,accelerating,99.45,99.54,58.6,True,0.81,46.8,Mixed
-HDFCLIFE,Financial Services,54.6,Improving,decelerating,99.75,101.69,43.0,True,0.07,48.0,Mixed
-AXISBANK,Financial Services,54.5,Lagging,decelerating,99.9,98.8,64.0,True,3.77,48.0,Mixed
-NH,Healthcare,54.4,Lagging,decelerating,99.19,99.56,47.2,True,1.4,77.1,Strong
-TCS,Information Technology,54.4,Improving,decelerating,99.86,100.5,40.1,True,1.75,51.9,Mixed
-ANURAS,Chemicals,54.2,Lagging,accelerating,99.91,99.96,65.9,True,3.96,30.8,Weak
-SAIL,Metals & Mining,54.2,Lagging,accelerating,99.53,99.02,67.4,True,3.43,27.8,Weak
-NETWEB,Information Technology,54.1,Lagging,accelerating,99.42,98.69,53.6,True,0.44,51.9,Mixed
-AARTIIND,Chemicals,53.7,Lagging,decelerating,99.66,98.82,71.5,True,3.7,30.8,Weak
-PARADEEP,Chemicals,53.0,Improving,decelerating,100.0,101.23,48.0,True,5.02,30.8,Weak
-CIPLA,Healthcare,52.9,Lagging,decelerating,99.2,99.99,42.8,True,2.47,77.1,Strong
-CANBK,Financial Services,52.7,Lagging,accelerating,99.7,99.51,51.8,True,0.64,48.0,Mixed
-MSUMI,Automobile and Auto Components,52.7,Lagging,accelerating,99.53,99.83,49.1,True,0.66,52.6,Mixed
-LT,Construction,52.5,Lagging,accelerating,99.91,98.88,60.9,True,5.6,30.8,Weak
-HEROMOTOCO,Automobile and Auto Components,52.4,Lagging,decelerating,99.83,99.06,55.3,True,3.41,52.6,Mixed
-USHAMART,Capital Goods,52.4,Lagging,accelerating,99.43,98.86,51.6,True,0.22,46.8,Mixed
-SIEMENS,Capital Goods,51.9,Lagging,decelerating,99.56,98.22,57.2,True,2.78,46.8,Mixed
-JINDALSTEL,Metals & Mining,51.8,Lagging,accelerating,99.35,99.24,60.7,True,1.46,27.8,Weak
-BANDHANBNK,Financial Services,51.2,Improving,accelerating,99.38,100.14,61.7,False,-2.29,48.0,Mixed
-KPIL,Construction,51.2,Lagging,decelerating,99.93,98.77,64.4,True,6.07,30.8,Weak
-WIPRO,Information Technology,50.4,Improving,decelerating,99.77,100.82,28.5,True,1.7,51.9,Mixed
-SPLPETRO,Chemicals,50.0,Improving,accelerating,99.19,100.34,68.2,False,-0.49,30.8,Weak
-ICICIPRULI,Financial Services,49.6,N/A,N/A,,,,,,48.0,Mixed
-HEG,Capital Goods,49.4,N/A,N/A,,,,,,46.8,Mixed
-CAMS,Financial Services,49.0,Lagging,accelerating,99.44,99.62,41.2,True,0.03,48.0,Mixed
-HOMEFIRST,Financial Services,48.7,Improving,accelerating,99.26,101.23,54.7,False,-1.42,48.0,Mixed
-ERIS,Healthcare,48.4,Improving,accelerating,99.22,102.04,37.0,False,-2.29,77.1,Strong
-PIDILITIND,Chemicals,47.9,Lagging,decelerating,99.54,99.83,54.9,True,1.96,30.8,Weak
-BELRISE,Automobile and Auto Components,47.8,N/A,N/A,,,70.7,False,-0.25,52.6,Mixed
-NAVA,Power,47.7,Improving,accelerating,99.37,100.74,65.7,False,-0.32,23.5,Weak
-PFOCUS,Media Entertainment & Publication,47.6,Lagging,accelerating,99.47,99.13,87.3,False,-3.33,60.0,Mixed
-ASIANPAINT,Consumer Durables,46.9,Lagging,decelerating,99.61,98.12,41.0,True,2.34,50.0,Mixed
-MAXHEALTH,Healthcare,46.1,Improving,accelerating,98.68,100.93,30.4,False,-6.1,77.1,Strong
-MRF,Automobile and Auto Components,45.2,Improving,accelerating,99.0,100.05,42.0,False,-2.15,52.6,Mixed
-ICICIGI,Financial Services,44.7,Improving,accelerating,99.37,101.07,43.2,False,-1.5,48.0,Mixed
-EMAMILTD,Fast Moving Consumer Goods,44.6,Improving,accelerating,99.75,101.58,52.0,False,-0.66,32.1,Weak
-SUPREMEIND,Capital Goods,44.2,Improving,accelerating,98.93,100.41,42.4,False,-6.6,46.8,Mixed
-ITI,Telecommunication,44.1,Improving,accelerating,99.47,100.31,40.3,False,-2.74,50.0,Mixed
-KIMS,Healthcare,44.1,Improving,decelerating,99.12,100.13,53.4,False,-0.1,77.1,Strong
-BRIGADE,Realty,44.0,Improving,accelerating,99.52,100.5,37.4,False,-1.35,54.5,Mixed
-JKCEMENT,Construction Materials,43.3,Improving,accelerating,98.7,101.72,45.7,False,-2.74,36.4,Weak
-ELECON,Capital Goods,42.9,Improving,accelerating,99.55,100.96,38.7,False,-1.68,46.8,Mixed
-IREDA,Financial Services,42.8,Improving,accelerating,99.4,100.74,37.6,False,-1.03,48.0,Mixed
-HAVELLS,Consumer Durables,42.1,Improving,accelerating,99.26,101.61,34.5,False,-4.43,50.0,Mixed
-FACT,Chemicals,41.9,Improving,accelerating,99.52,100.02,45.1,False,-0.96,30.8,Weak
-DEEPAKNTR,Chemicals,41.7,Improving,accelerating,99.34,100.23,44.3,False,-1.35,30.8,Weak
-IEX,Financial Services,41.6,Improving,accelerating,99.03,100.36,34.3,False,-3.27,48.0,Mixed
-NIVABUPA,Financial Services,40.9,N/A,N/A,,,53.8,False,-0.85,48.0,Mixed
-NIACL,Financial Services,40.8,Improving,accelerating,99.43,100.54,32.0,False,-3.72,48.0,Mixed
-TENNIND,Automobile and Auto Components,40.5,N/A,N/A,,,,False,-20.41,52.6,Mixed
-ITC,Fast Moving Consumer Goods,40.4,Improving,accelerating,99.48,101.16,39.9,False,-0.24,32.1,Weak
-COALINDIA,Oil Gas & Consumable Fuels,40.3,Lagging,accelerating,99.13,98.94,63.8,False,-2.45,64.7,Mixed
-J&KBANK,Financial Services,40.1,Lagging,accelerating,99.67,99.0,73.0,False,-0.21,48.0,Mixed
-BLUEDART,Services,39.8,Improving,accelerating,98.57,100.01,23.9,False,-10.72,57.1,Mixed
-BSOFT,Information Technology,39.7,Improving,decelerating,99.82,100.2,55.1,False,-0.53,51.9,Mixed
-TITAGARH,Capital Goods,39.7,Improving,accelerating,99.3,100.11,29.5,False,-5.7,46.8,Mixed
-CANHLIFE,Financial Services,39.6,N/A,N/A,,,,False,-5.93,48.0,Mixed
-ICICIAMC,Financial Services,39.6,N/A,N/A,,,,False,-0.86,48.0,Mixed
-DMART,Consumer Services,39.4,Improving,accelerating,98.53,100.27,20.0,False,-12.67,62.1,Mixed
-EMMVEE,Capital Goods,39.4,N/A,N/A,,,,False,-0.37,46.8,Mixed
-CHOLAHLDNG,Financial Services,39.1,Improving,accelerating,98.77,102.17,27.2,False,-5.65,48.0,Mixed
-SBFC,Financial Services,39.0,Improving,accelerating,98.67,100.93,27.0,False,-2.1,48.0,Mixed
-IGL,Oil Gas & Consumable Fuels,38.8,Improving,accelerating,98.37,102.04,16.8,False,-8.08,64.7,Mixed
-KIRLOSENG,Capital Goods,38.7,Lagging,accelerating,99.24,98.1,69.6,False,-7.62,46.8,Mixed
-SHRIRAMFIN,Financial Services,38.5,Lagging,accelerating,99.3,98.48,68.4,False,-2.07,48.0,Mixed
-DEEPAKFERT,Chemicals,38.4,Improving,accelerating,99.65,101.17,34.9,False,-2.08,30.8,Weak
-SCI,Services,38.4,Lagging,accelerating,99.24,98.93,62.8,False,-1.97,57.1,Mixed
-KAYNES,Capital Goods,38.3,Improving,accelerating,99.24,102.27,25.6,False,-3.87,46.8,Mixed
-ABREL,Realty,38.1,Improving,accelerating,99.13,100.21,20.6,False,-6.38,54.5,Mixed
-SCHNEIDER,Capital Goods,37.7,Lagging,accelerating,99.11,99.36,66.7,False,-6.62,46.8,Mixed
-IRFC,Financial Services,37.5,Improving,accelerating,99.1,101.99,22.7,False,-9.3,48.0,Mixed
-TRAVELFOOD,Consumer Services,37.5,N/A,N/A,,,35.8,False,-3.03,62.1,Mixed
-TTML,Telecommunication,37.3,Improving,accelerating,99.26,101.37,20.8,False,-5.26,50.0,Mixed
-CONCORDBIO,Healthcare,37.1,Improving,decelerating,99.23,100.28,33.3,False,-5.72,77.1,Strong
-IKS,Information Technology,37.1,N/A,N/A,,,40.7,False,-1.54,51.9,Mixed
-IRCTC,Consumer Services,37.1,Improving,accelerating,98.64,101.29,13.5,False,-11.64,62.1,Mixed
-RAMCOCEM,Construction Materials,37.0,Improving,accelerating,98.91,100.78,27.7,False,-11.88,36.4,Weak
-RAINBOW,Healthcare,36.8,Improving,decelerating,98.96,100.03,32.4,False,-3.63,77.1,Strong
-BLUESTARCO,Consumer Durables,36.7,Improving,decelerating,99.1,100.24,47.8,False,-4.58,50.0,Mixed
-ECLERX,Services,36.7,Improving,accelerating,99.52,100.09,15.2,False,-7.71,57.1,Mixed
-SUNDARMFIN,Financial Services,36.6,Improving,decelerating,99.08,100.51,48.6,False,-6.38,48.0,Mixed
-SONATSOFTW,Information Technology,36.5,Improving,accelerating,99.2,100.17,17.5,False,-7.81,51.9,Mixed
-TECHNOE,Construction,36.3,Improving,accelerating,99.07,100.22,28.9,False,-8.33,30.8,Weak
-RRKABEL,Capital Goods,36.2,Lagging,accelerating,99.61,98.28,62.4,False,-3.01,46.8,Mixed
-CHAMBLFERT,Chemicals,36.1,Improving,accelerating,98.55,100.82,28.3,False,-9.76,30.8,Weak
-INDIAMART,Consumer Services,36.0,Improving,accelerating,98.66,100.78,10.2,False,-14.71,62.1,Mixed
-COROMANDEL,Chemicals,35.9,Improving,decelerating,99.59,101.46,56.3,False,-1.65,30.8,Weak
-JAINREC,Metals & Mining,35.6,N/A,N/A,,,,False,-21.65,27.8,Weak
-MAPMYINDIA,Information Technology,35.6,Improving,accelerating,99.43,101.33,15.0,False,-8.76,51.9,Mixed
-RAILTEL,Telecommunication,35.5,Improving,accelerating,98.78,100.02,15.6,False,-12.56,50.0,Mixed
-UTIAMC,Financial Services,35.4,Improving,accelerating,98.45,101.0,16.6,False,-10.86,48.0,Mixed
-SHREECEM,Construction Materials,35.3,Improving,decelerating,99.3,101.68,51.4,False,-0.22,36.4,Weak
-CHOICEIN,Financial Services,35.2,Improving,decelerating,99.38,100.37,44.5,False,-0.73,48.0,Mixed
-DELHIVERY,Services,35.0,Lagging,accelerating,98.98,99.37,53.0,False,-1.81,57.1,Mixed
-DOMS,Fast Moving Consumer Goods,35.0,Improving,accelerating,98.57,100.01,24.5,False,-9.4,32.1,Weak
-NCC,Construction,34.8,Improving,accelerating,99.03,101.58,24.7,False,-5.74,30.8,Weak
-ENRIN,Capital Goods,34.7,N/A,N/A,,,36.8,False,-0.13,46.8,Mixed
-ABSLAMC,Financial Services,34.4,Lagging,accelerating,98.8,99.04,56.5,False,-8.56,48.0,Mixed
-SBICARD,Financial Services,34.2,Improving,accelerating,98.86,101.19,13.1,False,-10.78,48.0,Mixed
-INDUSINDBK,Financial Services,34.1,Lagging,accelerating,99.15,98.05,55.7,False,-0.75,48.0,Mixed
-TATAPOWER,Power,34.1,Improving,accelerating,98.72,100.05,26.8,False,-8.69,23.5,Weak
-OIL,Oil Gas & Consumable Fuels,33.6,Lagging,accelerating,98.72,99.09,44.7,False,-4.64,64.7,Mixed
-CENTRALBK,Financial Services,33.5,Lagging,accelerating,99.51,99.71,54.1,False,-2.01,48.0,Mixed
-HSCL,Chemicals,33.3,Lagging,accelerating,99.29,99.46,63.4,False,-6.26,30.8,Weak
-BHARATFORG,Automobile and Auto Components,33.1,Lagging,accelerating,98.25,97.87,50.1,False,-7.62,52.6,Mixed
-AAVAS,Financial Services,33.0,Improving,accelerating,98.52,100.55,9.6,False,-14.51,48.0,Mixed
-ONGC,Oil Gas & Consumable Fuels,32.5,Lagging,accelerating,99.09,99.11,41.6,False,-8.14,64.7,Mixed
-VTL,Textiles,32.5,Lagging,decelerating,98.66,98.61,63.0,False,-6.19,40.0,Mixed
-AADHARHFC,Financial Services,32.1,N/A,N/A,,,28.7,False,-9.05,48.0,Mixed
-AMBUJACEM,Construction Materials,32.1,Improving,accelerating,98.76,101.82,13.9,False,-11.26,36.4,Weak
-INFY,Information Technology,32.1,Improving,decelerating,99.74,100.28,33.5,False,-1.22,51.9,Mixed
-BDL,Capital Goods,31.9,Improving,accelerating,98.3,100.39,7.3,False,-18.37,46.8,Mixed
-ACC,Construction Materials,31.7,Improving,accelerating,98.75,100.1,12.7,False,-10.57,36.4,Weak
-HINDCOPPER,Metals & Mining,31.7,Lagging,accelerating,98.45,98.83,60.3,False,-14.97,27.8,Weak
-JWL,Capital Goods,31.6,Improving,accelerating,98.53,101.02,6.4,False,-20.07,46.8,Mixed
-BAJAJHFL,Financial Services,31.4,N/A,N/A,,,26.6,False,-4.12,48.0,Mixed
-AUBANK,Financial Services,31.3,Lagging,accelerating,98.95,98.53,47.6,False,-3.13,48.0,Mixed
-BEL,Capital Goods,31.2,Lagging,accelerating,98.98,99.76,48.2,False,-3.16,46.8,Mixed
-BPCL,Oil Gas & Consumable Fuels,31.2,Lagging,accelerating,99.12,99.39,38.0,False,-3.99,64.7,Mixed
-COCHINSHIP,Capital Goods,31.2,Improving,accelerating,98.47,100.27,5.4,False,-17.95,46.8,Mixed
-MAZDOCK,Capital Goods,31.2,Improving,accelerating,98.49,100.77,5.2,False,-19.45,46.8,Mixed
-DCMSHRIRAM,Diversified,30.9,Improving,accelerating,98.7,100.15,12.1,False,-14.26,33.3,Weak
-NHPC,Power,30.9,Improving,decelerating,98.64,100.48,46.4,False,-1.3,23.5,Weak
-SBILIFE,Financial Services,30.9,Lagging,accelerating,99.12,99.72,46.6,False,-2.4,48.0,Mixed
-SUZLON,Capital Goods,30.9,Improving,accelerating,98.85,100.29,4.4,False,-19.16,46.8,Mixed
-BERGEPAINT,Consumer Durables,30.8,Improving,decelerating,99.03,100.09,30.8,False,-0.84,50.0,Mixed
-DALBHARAT,Construction Materials,30.8,Improving,accelerating,98.47,102.11,10.0,False,-17.3,36.4,Weak
-IFCI,Financial Services,30.8,Lagging,accelerating,99.37,98.91,46.2,False,-8.39,48.0,Mixed
-APOLLOTYRE,Automobile and Auto Components,30.7,Lagging,accelerating,99.26,99.01,43.5,False,-1.09,52.6,Mixed
-IRCON,Construction,30.5,Improving,accelerating,98.82,100.59,12.5,False,-14.3,30.8,Weak
-TATACHEM,Chemicals,30.5,Improving,accelerating,98.68,100.75,12.3,False,-10.78,30.8,Weak
-EXIDEIND,Automobile and Auto Components,30.4,Lagging,accelerating,99.54,99.86,42.6,False,-1.02,52.6,Mixed
-INOXWIND,Capital Goods,30.4,Improving,accelerating,98.79,100.84,2.9,False,-23.11,46.8,Mixed
-JUBLFOOD,Consumer Services,30.4,Improving,decelerating,98.96,100.62,22.9,False,-5.16,62.1,Mixed
-APTUS,Financial Services,30.2,Improving,accelerating,97.97,100.89,1.7,False,-28.28,48.0,Mixed
-BBTC,Fast Moving Consumer Goods,30.2,Improving,accelerating,98.53,100.74,10.8,False,-13.53,32.1,Weak
-HINDZINC,Metals & Mining,30.2,Lagging,accelerating,99.17,98.67,56.1,False,-3.21,27.8,Weak
-INDUSTOWER,Telecommunication,30.1,Lagging,decelerating,99.35,99.02,50.3,False,-0.43,50.0,Mixed
-NATIONALUM,Metals & Mining,30.1,Lagging,accelerating,98.9,98.4,55.9,False,-9.52,27.8,Weak
-BAYERCROP,Chemicals,29.9,Improving,accelerating,98.69,100.23,10.6,False,-15.45,30.8,Weak
-ALKEM,Healthcare,29.5,Lagging,decelerating,98.02,98.39,33.1,False,-5.45,77.1,Strong
-MANAPPURAM,Financial Services,29.5,Lagging,decelerating,99.41,98.64,49.7,False,-0.72,48.0,Mixed
-PREMIERENE,Capital Goods,29.4,N/A,N/A,,,21.6,False,-4.7,46.8,Mixed
-ENDURANCE,Automobile and Auto Components,29.3,Lagging,accelerating,99.16,99.35,39.5,False,-1.0,52.6,Mixed
-HINDUNILVR,Fast Moving Consumer Goods,29.1,Improving,decelerating,98.99,100.23,36.2,False,-4.81,32.1,Weak
-JSL,Metals & Mining,29.0,Lagging,accelerating,99.07,99.34,52.8,False,-2.62,27.8,Weak
-RVNL,Construction,28.9,Improving,accelerating,98.96,100.82,7.7,False,-19.65,30.8,Weak
-WAAREEENER,Capital Goods,28.9,N/A,N/A,,,20.2,False,-9.86,46.8,Mixed
-CANFINHOME,Financial Services,28.8,Lagging,accelerating,98.89,98.94,40.5,False,-5.51,48.0,Mixed
-EIDPARRY,Fast Moving Consumer Goods,28.8,Improving,accelerating,98.59,100.72,6.9,False,-15.85,32.1,Weak
-TIMKEN,Capital Goods,28.8,Lagging,accelerating,98.85,99.0,41.4,False,-4.57,46.8,Mixed
-GODFRYPHLP,Fast Moving Consumer Goods,28.6,Improving,accelerating,98.35,102.14,6.2,False,-11.81,32.1,Weak
-MARUTI,Automobile and Auto Components,28.3,Lagging,accelerating,98.96,99.89,36.4,False,-2.77,52.6,Mixed
-TATASTEEL,Metals & Mining,28.3,Lagging,accelerating,98.84,99.54,50.7,False,-5.92,27.8,Weak
-BLS,Consumer Services,28.1,Improving,decelerating,98.89,100.91,16.2,False,-9.16,62.1,Mixed
-HEXT,Information Technology,28.1,N/A,N/A,,,14.8,False,-3.85,51.9,Mixed
-OLAELEC,Automobile and Auto Components,28.0,N/A,N/A,,,14.3,False,-2.62,52.6,Mixed
-HINDALCO,Metals & Mining,27.9,Lagging,accelerating,99.02,98.96,49.5,False,-3.54,27.8,Weak
-LUPIN,Healthcare,27.8,Lagging,decelerating,98.19,98.05,28.1,False,-11.02,77.1,Strong
-VMM,Consumer Services,27.8,N/A,N/A,,,8.1,False,-13.49,62.1,Mixed
-BIKAJI,Fast Moving Consumer Goods,27.7,Improving,accelerating,98.34,100.52,3.7,False,-20.66,32.1,Weak
-UCOBANK,Financial Services,27.6,Lagging,accelerating,99.1,99.75,37.2,False,-4.08,48.0,Mixed
-SJVN,Power,27.5,Improving,accelerating,98.54,101.18,7.9,False,-15.84,23.5,Weak
-SIGNATURE,Realty,27.4,Improving,decelerating,99.2,100.38,18.7,False,-5.59,54.5,Mixed
-SOBHA,Realty,27.4,Lagging,accelerating,98.99,99.83,32.8,False,-4.62,54.5,Mixed
-AMBER,Consumer Durables,27.3,Lagging,accelerating,98.76,99.89,35.1,False,-6.24,50.0,Mixed
-SUMICHEM,Chemicals,27.3,Improving,accelerating,98.57,100.28,3.3,False,-22.07,30.8,Weak
-ZYDUSWELL,Fast Moving Consumer Goods,27.3,Lagging,accelerating,99.16,99.14,45.3,False,-4.55,32.1,Weak
-NATCOPHARM,Healthcare,27.1,Lagging,decelerating,98.72,98.9,26.2,False,-12.37,77.1,Strong
-PCBL,Chemicals,27.1,Improving,decelerating,98.84,100.07,31.4,False,-4.82,30.8,Weak
-ABLBL,Consumer Services,27.0,N/A,N/A,,,5.8,False,-16.5,62.1,Mixed
-GILLETTE,Fast Moving Consumer Goods,27.0,Improving,decelerating,98.56,100.89,30.1,False,-5.64,32.1,Weak
-LTF,Financial Services,27.0,Lagging,accelerating,99.18,98.82,35.3,False,-2.93,48.0,Mixed
-TATAELXSI,Information Technology,27.0,Improving,decelerating,99.33,101.14,18.9,False,-6.86,51.9,Mixed
-SWANCORP,Chemicals,26.9,Improving,accelerating,98.3,100.13,2.1,False,-27.33,30.8,Weak
-CONCOR,Services,26.8,Lagging,accelerating,98.4,99.75,29.7,False,-7.41,57.1,Mixed
-BATAINDIA,Consumer Durables,26.7,Improving,decelerating,98.75,100.23,19.1,False,-5.76,50.0,Mixed
-LICI,Financial Services,26.7,Lagging,decelerating,98.37,98.24,41.8,False,-1.25,48.0,Mixed
-JKTYRE,Automobile and Auto Components,26.6,Lagging,accelerating,99.16,99.0,31.6,False,-9.56,52.6,Mixed
-KEC,Construction,26.6,Improving,accelerating,98.48,101.94,1.2,False,-31.46,30.8,Weak
-SRF,Chemicals,26.3,Improving,decelerating,98.48,100.86,29.1,False,-5.07,30.8,Weak
-MMTC,Services,26.2,Lagging,accelerating,98.62,99.39,27.9,False,-9.84,57.1,Mixed
-BIOCON,Healthcare,26.1,Lagging,decelerating,98.44,97.98,23.3,False,-6.61,77.1,Strong
-GICRE,Financial Services,26.0,Lagging,decelerating,98.9,99.01,39.7,False,-4.22,48.0,Mixed
-HDBFS,Financial Services,26.0,N/A,N/A,,,11.2,False,-13.98,48.0,Mixed
-ATGL,Oil Gas & Consumable Fuels,25.8,Lagging,accelerating,99.22,99.57,22.5,False,-6.08,64.7,Mixed
-FIRSTCRY,Consumer Services,25.8,N/A,N/A,,,2.5,False,-24.7,62.1,Mixed
-IOB,Financial Services,25.7,Lagging,accelerating,98.69,99.52,31.8,False,-5.33,48.0,Mixed
-PFC,Financial Services,25.5,Lagging,accelerating,98.73,99.77,31.2,False,-14.01,48.0,Mixed
-RECLTD,Financial Services,25.5,Lagging,accelerating,98.48,99.28,31.0,False,-8.63,48.0,Mixed
-TEGA,Capital Goods,25.5,Lagging,decelerating,99.4,99.59,39.1,False,-2.71,46.8,Mixed
-TRIDENT,Textiles,25.5,Lagging,accelerating,98.75,99.93,35.6,False,-4.93,40.0,Mixed
-IDBI,Financial Services,25.3,Lagging,accelerating,99.49,99.9,30.6,False,-5.45,48.0,Mixed
-RPOWER,Power,25.2,Improving,accelerating,98.59,101.27,1.5,False,-23.08,23.5,Weak
-SWIGGY,Consumer Services,25.2,N/A,N/A,,,0.8,False,-30.49,62.1,Mixed
-JSWENERGY,Power,25.1,Lagging,accelerating,99.03,99.26,44.1,False,-1.6,23.5,Weak
-GODIGIT,Financial Services,25.0,N/A,N/A,,,8.3,False,-15.02,48.0,Mixed
-POLYCAB,Capital Goods,24.8,Lagging,accelerating,98.77,98.68,29.9,False,-6.26,46.8,Mixed
-IRB,Construction,24.6,Lagging,accelerating,99.18,99.86,38.3,False,-5.56,30.8,Weak
-VBL,Fast Moving Consumer Goods,24.6,Lagging,accelerating,99.29,99.48,37.8,False,-4.87,32.1,Weak
-VOLTAS,Consumer Durables,24.6,Lagging,accelerating,98.91,99.42,27.4,False,-11.44,50.0,Mixed
-FORTIS,Healthcare,24.3,Lagging,accelerating,98.07,99.4,11.0,False,-14.19,77.1,Strong
-CIEINDIA,Automobile and Auto Components,24.2,Lagging,accelerating,98.57,99.17,24.9,False,-14.09,52.6,Mixed
-INDIACEM,Construction Materials,24.1,Lagging,accelerating,99.02,99.53,33.9,False,-7.83,36.4,Weak
-PFIZER,Healthcare,24.1,Lagging,accelerating,98.41,99.71,10.4,False,-14.52,77.1,Strong
-JSWDULUX,Consumer Durables,23.8,Lagging,decelerating,98.8,99.65,32.2,False,-2.77,50.0,Mixed
-TATAINVEST,Financial Services,23.8,Improving,decelerating,98.3,100.6,11.9,False,-11.03,48.0,Mixed
-NESTLEIND,Fast Moving Consumer Goods,23.6,Lagging,accelerating,98.59,98.53,34.7,False,-6.74,32.1,Weak
-SAMMAANCAP,Financial Services,23.6,Lagging,accelerating,98.98,99.26,25.8,False,-8.47,48.0,Mixed
-RHIM,Capital Goods,23.5,Lagging,accelerating,98.75,99.98,26.0,False,-6.04,46.8,Mixed
-GODREJCP,Fast Moving Consumer Goods,23.4,Improving,decelerating,98.77,100.59,19.8,False,-13.21,32.1,Weak
-JIOFIN,Financial Services,23.4,Lagging,accelerating,98.71,99.74,25.2,False,-4.61,48.0,Mixed
-NTPCGREEN,Power,23.4,N/A,N/A,,,17.7,False,-12.04,23.5,Weak
-NTPC,Power,23.2,Lagging,accelerating,98.74,99.16,38.5,False,-8.42,23.5,Weak
-TATATECH,Information Technology,23.1,Lagging,decelerating,99.6,99.39,29.3,False,-2.51,51.9,Mixed
-GPIL,Capital Goods,22.9,Lagging,accelerating,98.85,99.54,24.3,False,-13.14,46.8,Mixed
-JMFINANCIL,Financial Services,22.7,Lagging,accelerating,98.56,99.88,23.1,False,-7.28,48.0,Mixed
-CCL,Fast Moving Consumer Goods,22.5,Lagging,decelerating,98.42,98.63,38.9,False,-9.11,32.1,Weak
-NSLNISP,Metals & Mining,22.5,Lagging,accelerating,99.04,98.74,34.1,False,-3.47,27.8,Weak
-ANANTRAJ,Realty,22.3,Lagging,accelerating,98.97,99.08,18.3,False,-11.12,54.5,Mixed
-MUTHOOTFIN,Financial Services,22.3,Lagging,accelerating,99.01,99.25,22.0,False,-9.39,48.0,Mixed
-TORNTPOWER,Power,22.3,Lagging,accelerating,98.84,98.7,36.0,False,-11.95,23.5,Weak
-FIVESTAR,Financial Services,22.2,Lagging,accelerating,99.27,99.96,21.8,False,-6.8,48.0,Mixed
-LTM,Information Technology,22.1,Lagging,decelerating,99.69,97.82,26.4,False,-1.91,51.9,Mixed
-SCHAEFFLER,Automobile and Auto Components,21.9,Lagging,decelerating,97.82,99.16,25.4,False,-9.57,52.6,Mixed
-TMPV,Automobile and Auto Components,21.9,Improving,decelerating,98.38,100.38,4.0,False,-21.31,52.6,Mixed
-MFSL,Financial Services,21.7,Lagging,accelerating,98.88,99.7,20.4,False,-10.44,48.0,Mixed
-PAGEIND,Textiles,21.4,Improving,decelerating,98.24,100.05,9.8,False,-13.36,40.0,Mixed
-POWERGRID,Power,21.0,Lagging,decelerating,98.63,99.04,39.3,False,-7.56,23.5,Weak
-ARE&M,Automobile and Auto Components,20.9,Lagging,accelerating,98.71,99.73,15.4,False,-8.29,52.6,Mixed
-UBL,Fast Moving Consumer Goods,20.9,Improving,decelerating,98.78,100.92,12.9,False,-13.63,32.1,Weak
-HONAUT,Capital Goods,20.7,Lagging,accelerating,98.89,99.77,18.1,False,-8.65,46.8,Mixed
-M&MFIN,Financial Services,20.7,Lagging,accelerating,98.76,98.16,17.3,False,-12.82,48.0,Mixed
-OLECTRA,Automobile and Auto Components,20.5,Lagging,accelerating,98.89,99.62,14.1,False,-13.57,52.6,Mixed
-ZFCVINDIA,Automobile and Auto Components,20.5,Improving,decelerating,99.19,100.12,0.0,False,-74.1,52.6,Mixed
-CUMMINSIND,Capital Goods,20.3,Lagging,accelerating,98.22,98.64,17.0,False,-12.74,46.8,Mixed
-HUDCO,Financial Services,20.3,Lagging,accelerating,99.01,98.96,16.4,False,-9.5,48.0,Mixed
-RITES,Construction,20.1,Lagging,decelerating,98.58,99.58,32.6,False,-4.81,30.8,Weak
-BRITANNIA,Fast Moving Consumer Goods,19.6,Lagging,accelerating,98.47,99.87,23.5,False,-10.84,32.1,Weak
-AFCONS,Construction,19.5,N/A,N/A,,,2.3,False,-23.4,30.8,Weak
-CREDITACC,Financial Services,19.4,Lagging,accelerating,98.46,99.13,13.7,False,-16.9,48.0,Mixed
-GRSE,Capital Goods,19.0,Lagging,accelerating,98.87,99.37,13.3,False,-12.07,46.8,Mixed
-SARDAEN,Metals & Mining,19.0,Lagging,accelerating,98.32,99.38,24.1,False,-13.47,27.8,Weak
-ZEEL,Media Entertainment & Publication,18.7,Lagging,accelerating,98.68,99.79,4.8,False,-18.99,60.0,Mixed
-JBMA,Automobile and Auto Components,18.5,Lagging,accelerating,98.43,99.22,8.5,False,-17.45,52.6,Mixed
-KEI,Capital Goods,18.4,Lagging,accelerating,98.42,98.53,11.4,False,-15.92,46.8,Mixed
-COLPAL,Fast Moving Consumer Goods,18.2,Lagging,accelerating,98.53,99.55,19.3,False,-11.82,32.1,Weak
-TIINDIA,Automobile and Auto Components,18.0,Lagging,accelerating,98.42,99.76,7.1,False,-16.19,52.6,Mixed
-GMDCLTD,Metals & Mining,17.9,Lagging,accelerating,98.93,99.47,21.0,False,-14.14,27.8,Weak
-ABFRL,Consumer Services,17.6,Lagging,accelerating,98.32,99.01,0.6,False,-31.87,62.1,Mixed
-TRITURBINE,Capital Goods,17.5,Lagging,decelerating,99.15,99.29,16.0,False,-8.3,46.8,Mixed
-GALLANTT,Capital Goods,17.4,Lagging,decelerating,98.89,99.75,15.8,False,-14.94,46.8,Mixed
-NMDC,Metals & Mining,17.4,Lagging,accelerating,98.12,99.01,19.5,False,-14.09,27.8,Weak
-JUBLINGREA,Chemicals,17.0,Lagging,decelerating,98.83,99.55,23.7,False,-9.53,30.8,Weak
-YESBANK,Financial Services,16.9,Lagging,accelerating,98.59,98.62,6.7,False,-17.91,48.0,Mixed
-CROMPTON,Consumer Durables,16.6,Lagging,decelerating,98.65,99.48,11.6,False,-13.87,50.0,Mixed
-DABUR,Fast Moving Consumer Goods,16.3,Lagging,decelerating,98.86,99.6,21.2,False,-10.27,32.1,Weak
-NLCINDIA,Power,16.2,Lagging,accelerating,98.64,99.23,18.5,False,-15.05,23.5,Weak
-PIIND,Chemicals,16.2,Improving,decelerating,97.97,100.36,0.2,False,-36.25,30.8,Weak
-UPL,Chemicals,16.1,Lagging,decelerating,98.88,99.86,21.4,False,-7.52,30.8,Weak
-INTELLECT,Information Technology,16.0,Lagging,accelerating,98.12,99.13,1.9,False,-24.12,51.9,Mixed
-GRAVITA,Metals & Mining,15.8,Lagging,decelerating,98.82,98.99,22.2,False,-6.58,27.8,Weak
-TEJASNET,Telecommunication,15.5,Lagging,decelerating,98.92,98.69,8.7,False,-10.91,50.0,Mixed
-ASTRAL,Capital Goods,15.0,Lagging,decelerating,98.35,98.72,9.1,False,-15.89,46.8,Mixed
-CLEAN,Chemicals,14.9,Lagging,decelerating,98.65,99.97,17.9,False,-6.18,30.8,Weak
-NEWGEN,Information Technology,14.8,Lagging,decelerating,98.53,99.97,5.6,False,-10.56,51.9,Mixed
-ATUL,Chemicals,14.4,Lagging,accelerating,98.09,98.61,9.4,False,-18.57,30.8,Weak
-3MINDIA,Diversified,14.3,Lagging,decelerating,97.83,97.85,14.6,False,-13.39,33.3,Weak
-NBCC,Construction,14.3,Lagging,accelerating,98.82,99.38,8.9,False,-12.32,30.8,Weak
-KPITTECH,Information Technology,13.8,Lagging,decelerating,98.93,99.71,2.7,False,-17.8,51.9,Mixed
-AWL,Fast Moving Consumer Goods,13.5,Lagging,accelerating,97.8,99.05,6.0,False,-13.05,32.1,Weak
-ESCORTS,Capital Goods,13.5,Lagging,decelerating,97.99,98.39,4.6,False,-19.96,46.8,Mixed
-AIAENG,Capital Goods,13.3,Lagging,decelerating,98.08,97.59,4.2,False,-21.58,46.8,Mixed
-LATENTVIEW,Information Technology,13.0,Lagging,decelerating,98.32,97.56,0.4,False,-29.36,51.9,Mixed
-THERMAX,Capital Goods,12.9,Lagging,decelerating,98.52,98.87,3.1,False,-27.33,46.8,Mixed
-POLICYBZR,Financial Services,12.5,Lagging,decelerating,98.61,99.49,1.0,False,-27.29,48.0,Mixed
-CESC,Power,12.3,Lagging,accelerating,98.5,98.94,7.5,False,-16.05,23.5,Weak
-VEDL,Metals & Mining,11.8,Lagging,accelerating,99.42,98.81,3.5,False,-36.17,27.8,Weak
-JPPOWER,Power,11.4,Lagging,accelerating,98.87,99.14,5.0,False,-14.69,23.5,Weak
+DIVISLAB,Healthcare,94.6,Leading,accelerating,101.57,100.7,98.8,True,46.53,75.0,Strong
+GLAND,Healthcare,94.3,Leading,accelerating,101.24,100.71,97.9,True,38.58,75.0,Strong
+PVRINOX,Media Entertainment & Publication,91.7,Leading,accelerating,101.88,100.83,99.0,True,50.16,60.0,Mixed
+GLENMARK,Healthcare,90.4,Leading,accelerating,101.58,100.31,86.9,True,17.24,75.0,Strong
+DLF,Realty,89.9,Leading,accelerating,101.76,101.46,86.7,True,26.03,72.7,Strong
+GABRIEL,Automobile and Auto Components,89.5,Leading,accelerating,101.0,101.37,92.7,True,25.75,60.5,Mixed
+MEDANTA,Healthcare,89.5,Leading,accelerating,101.14,101.42,84.4,True,18.41,75.0,Strong
+KALYANKJIL,Consumer Durables,89.1,Leading,accelerating,101.38,101.03,97.3,True,36.4,50.0,Mixed
+ASAHIINDIA,Automobile and Auto Components,88.8,Leading,accelerating,102.39,101.18,90.6,True,29.41,60.5,Mixed
+APOLLOHOSP,Healthcare,88.6,Leading,accelerating,101.16,101.19,81.7,True,12.75,75.0,Strong
+JSWINFRA,Services,88.6,Leading,accelerating,100.89,101.12,87.7,True,16.75,64.3,Mixed
+TVSMOTOR,Automobile and Auto Components,88.2,Leading,accelerating,101.08,100.33,88.8,True,17.64,60.5,Mixed
+PETRONET,Oil Gas & Consumable Fuels,88.1,Leading,accelerating,101.69,101.4,86.2,True,17.25,64.7,Mixed
+LODHA,Realty,88.0,Leading,accelerating,100.93,100.89,81.2,True,18.36,72.7,Strong
+PNB,Financial Services,88.0,Leading,accelerating,102.22,100.76,94.4,True,31.66,50.0,Mixed
+MOTILALOFS,Financial Services,87.7,Leading,accelerating,101.83,101.0,93.3,True,37.36,50.0,Mixed
+UNIONBANK,Financial Services,86.8,Leading,accelerating,101.56,100.27,90.8,True,18.5,50.0,Mixed
+PRESTIGE,Realty,86.2,Leading,accelerating,101.19,100.97,76.2,True,13.99,72.7,Strong
+KIMS,Healthcare,85.7,Leading,accelerating,100.43,101.43,73.5,True,7.97,75.0,Strong
+WELCORP,Capital Goods,85.6,Leading,accelerating,100.53,100.71,99.4,True,31.49,29.0,Weak
+UNOMINDA,Automobile and Auto Components,85.4,Leading,accelerating,102.03,101.15,80.8,True,17.09,60.5,Mixed
+WOCKPHARMA,Healthcare,85.1,Leading,decelerating,100.82,101.26,93.1,True,22.89,75.0,Strong
+EICHERMOT,Automobile and Auto Components,84.9,Leading,accelerating,101.3,100.77,79.4,True,10.74,60.5,Mixed
+OBEROIRLTY,Realty,84.7,Leading,accelerating,100.7,100.62,71.9,True,9.74,72.7,Strong
+POONAWALLA,Financial Services,84.7,Leading,accelerating,101.61,101.22,84.8,True,16.89,50.0,Mixed
+ENGINERSIN,Construction,84.4,Leading,accelerating,101.12,100.49,95.0,True,24.26,30.8,Weak
+PNBHOUSING,Financial Services,84.4,Leading,accelerating,100.89,100.62,84.0,True,15.8,50.0,Mixed
+VIJAYA,Healthcare,84.4,Leading,decelerating,100.99,100.35,91.2,True,23.99,75.0,Strong
+FORCEMOT,Automobile and Auto Components,84.3,Leading,accelerating,100.02,100.45,77.7,True,4.14,60.5,Mixed
+GLAXO,Healthcare,84.1,Leading,accelerating,100.2,100.95,68.8,True,7.6,75.0,Strong
+MAXHEALTH,Healthcare,84.0,Leading,accelerating,100.38,102.23,68.5,True,7.81,75.0,Strong
+SAREGAMA,Media Entertainment & Publication,84.0,Leading,decelerating,101.66,101.21,98.5,True,46.92,60.0,Mixed
+GAIL,Oil Gas & Consumable Fuels,83.8,Leading,accelerating,101.1,100.86,73.8,True,11.0,64.7,Mixed
+LICHSGFIN,Financial Services,83.8,Leading,accelerating,102.02,102.35,82.3,True,14.7,50.0,Mixed
+PPLPHARMA,Healthcare,83.7,Leading,decelerating,101.13,100.62,89.2,True,29.46,75.0,Strong
+ULTRACEMCO,Construction Materials,83.6,Leading,accelerating,101.51,102.18,79.2,True,10.21,54.5,Mixed
+FLUOROCHEM,Chemicals,83.3,Leading,accelerating,101.28,100.65,91.9,True,22.96,30.8,Weak
+NH,Healthcare,82.7,Leading,accelerating,100.54,100.55,64.8,True,7.33,75.0,Strong
+CARTRADE,Consumer Services,82.6,Leading,accelerating,100.41,100.36,76.0,True,9.06,55.2,Mixed
+SUNTV,Media Entertainment & Publication,82.6,Leading,decelerating,101.12,100.42,94.6,True,24.55,60.0,Mixed
+BAJFINANCE,Financial Services,82.5,Leading,accelerating,100.99,100.46,78.5,True,11.85,50.0,Mixed
+BLUESTARCO,Consumer Durables,82.3,Leading,accelerating,100.33,101.45,77.9,True,7.31,50.0,Mixed
+SAILIFE,Healthcare,82.2,N/A,N/A,,,99.2,True,43.25,75.0,Strong
+M&M,Automobile and Auto Components,81.9,Leading,accelerating,101.36,101.18,71.0,True,10.23,60.5,Mixed
+MARICO,Fast Moving Consumer Goods,81.9,Leading,accelerating,101.97,102.05,85.0,True,13.49,35.7,Weak
+ACE,Capital Goods,81.7,Leading,accelerating,100.97,100.79,88.3,True,18.76,29.0,Weak
+EMCURE,Healthcare,81.5,N/A,N/A,,,97.1,True,30.14,75.0,Strong
+EIHOTEL,Consumer Services,80.8,Leading,accelerating,100.98,101.82,70.6,True,6.98,55.2,Mixed
+MSUMI,Automobile and Auto Components,80.8,Leading,accelerating,100.57,100.35,67.7,True,7.61,60.5,Mixed
+INDHOTEL,Consumer Services,80.6,Leading,decelerating,101.81,100.94,91.5,True,28.42,55.2,Mixed
+REDINGTON,Services,80.6,Leading,decelerating,100.37,100.28,86.5,True,14.53,64.3,Mixed
+BALKRISIND,Automobile and Auto Components,80.4,Leading,accelerating,100.2,100.48,66.5,True,4.84,60.5,Mixed
+BOSCHLTD,Automobile and Auto Components,80.4,Leading,decelerating,100.87,100.04,88.1,True,20.03,60.5,Mixed
+GODREJPROP,Realty,80.4,Leading,accelerating,100.38,100.67,59.6,True,7.29,72.7,Strong
+ZYDUSLIFE,Healthcare,80.2,Leading,decelerating,100.54,100.46,79.0,True,13.58,75.0,Strong
+ETERNAL,Consumer Services,80.0,Leading,decelerating,101.27,101.32,89.8,True,26.34,55.2,Mixed
+ANTHEM,Healthcare,79.9,N/A,N/A,,,92.5,True,21.36,75.0,Strong
+POLYMED,Healthcare,79.9,Leading,accelerating,100.22,100.53,56.9,True,5.29,75.0,Strong
+PAYTM,Financial Services,79.7,Leading,decelerating,101.03,100.31,92.1,True,28.16,50.0,Mixed
+360ONE,Financial Services,79.6,Leading,accelerating,101.76,100.22,70.4,True,10.49,50.0,Mixed
+ATHERENERG,Automobile and Auto Components,79.6,N/A,N/A,,,100.0,True,68.41,60.5,Mixed
+MANKIND,Healthcare,79.4,Leading,decelerating,100.73,100.83,76.9,True,11.48,75.0,Strong
+EXIDEIND,Automobile and Auto Components,79.3,Leading,accelerating,100.13,100.47,63.3,True,6.07,60.5,Mixed
+LEMONTREE,Consumer Services,79.1,Leading,accelerating,101.74,102.34,66.0,True,12.76,55.2,Mixed
+CHENNPETRO,Oil Gas & Consumable Fuels,79.0,Weakening,accelerating,100.86,98.67,95.8,True,25.59,64.7,Mixed
+BAJAJHLDNG,Financial Services,78.9,Leading,accelerating,100.91,101.49,68.3,True,9.24,50.0,Mixed
+DRREDDY,Healthcare,78.9,Leading,decelerating,100.41,100.01,75.4,True,10.01,75.0,Strong
+IREDA,Financial Services,78.8,Leading,accelerating,100.64,101.9,68.1,True,10.71,50.0,Mixed
+NUVOCO,Construction Materials,78.8,Leading,accelerating,100.85,101.68,65.4,True,9.58,54.5,Mixed
+MARUTI,Automobile and Auto Components,78.7,Leading,accelerating,100.24,100.91,61.7,True,6.42,60.5,Mixed
+COFORGE,Information Technology,78.5,Leading,decelerating,101.24,100.21,89.6,True,36.78,48.1,Mixed
+KOTAKBANK,Financial Services,78.5,Leading,decelerating,101.77,101.15,88.5,True,24.14,50.0,Mixed
+BRIGADE,Realty,78.4,Leading,accelerating,100.11,100.97,54.0,True,4.48,72.7,Strong
+AFFLE,Information Technology,78.0,Leading,accelerating,100.74,102.53,66.7,True,7.55,48.1,Mixed
+THELEELA,Consumer Services,77.9,N/A,N/A,,,98.3,True,38.97,55.2,Mixed
+SIGNATURE,Realty,77.7,Leading,accelerating,100.22,101.71,51.9,True,5.96,72.7,Strong
+CEMPRO,Construction,77.6,Leading,decelerating,100.97,100.39,96.9,True,37.49,30.8,Weak
+CRAFTSMAN,Automobile and Auto Components,77.6,Weakening,accelerating,101.21,99.47,94.2,True,26.0,60.5,Mixed
+HDFCBANK,Financial Services,77.5,Leading,accelerating,100.5,101.87,64.4,True,5.81,50.0,Mixed
+INDGN,Healthcare,77.4,N/A,N/A,,,85.4,True,22.52,75.0,Strong
+LAURUSLABS,Healthcare,77.4,Weakening,decelerating,101.2,98.97,99.8,True,53.25,75.0,Strong
+CHALET,Consumer Services,77.3,Leading,accelerating,100.51,101.85,60.8,True,6.71,55.2,Mixed
+HDFCAMC,Financial Services,77.2,Leading,accelerating,100.35,101.56,63.5,True,5.42,50.0,Mixed
+HINDPETRO,Oil Gas & Consumable Fuels,77.1,Leading,accelerating,100.13,100.41,54.8,True,4.56,64.7,Mixed
+ICICIBANK,Financial Services,77.0,Leading,decelerating,101.87,101.32,84.2,True,16.57,50.0,Mixed
+IGIL,Services,76.9,N/A,N/A,,,90.0,True,24.76,64.3,Mixed
+ACUTAAS,Healthcare,76.8,Weakening,decelerating,100.97,98.79,98.1,True,29.98,75.0,Strong
+BEML,Capital Goods,76.7,Leading,accelerating,100.69,100.94,74.0,True,10.64,29.0,Weak
+DIXON,Consumer Durables,76.5,Leading,accelerating,100.51,101.49,61.3,True,9.72,50.0,Mixed
+SHYAMMETL,Capital Goods,76.5,Leading,decelerating,101.56,101.62,94.8,True,30.17,29.0,Weak
+MAHABANK,Financial Services,76.3,Weakening,accelerating,101.68,99.87,96.5,True,24.58,50.0,Mixed
+TECHM,Information Technology,76.3,Leading,decelerating,101.04,100.26,83.3,True,18.15,48.1,Mixed
+AEGISVOPAK,Oil Gas & Consumable Fuels,76.0,N/A,N/A,,,87.3,True,16.64,64.7,Mixed
+MCX,Financial Services,75.9,Weakening,accelerating,101.22,99.43,95.4,True,22.28,50.0,Mixed
+ANANDRATHI,Financial Services,75.8,Weakening,accelerating,101.09,99.75,95.2,True,22.53,50.0,Mixed
+INDIGO,Services,75.7,Leading,decelerating,101.09,101.13,72.3,True,13.99,64.3,Mixed
+JYOTICNC,Capital Goods,75.6,Leading,decelerating,101.06,100.4,92.3,True,23.66,29.0,Weak
+ASTERDM,Healthcare,75.1,Weakening,accelerating,100.62,99.83,78.8,True,9.12,75.0,Strong
+BHARTIARTL,Telecommunication,74.9,Leading,decelerating,101.53,101.17,78.3,True,13.06,50.0,Mixed
+CDSL,Financial Services,74.8,Leading,accelerating,101.16,101.06,56.7,True,7.49,50.0,Mixed
+DEEPAKFERT,Chemicals,74.7,Leading,accelerating,100.33,101.74,67.3,True,9.21,30.8,Weak
+ANURAS,Chemicals,74.6,Leading,accelerating,100.09,100.1,67.1,True,4.75,30.8,Weak
+BELRISE,Automobile and Auto Components,74.6,N/A,N/A,,,85.8,True,9.2,60.5,Mixed
+LTFOODS,Fast Moving Consumer Goods,74.2,Leading,accelerating,100.18,100.8,63.1,True,4.71,35.7,Weak
+AUROPHARMA,Healthcare,74.1,Weakening,decelerating,101.04,97.77,90.4,True,19.86,75.0,Strong
+BALRAMCHIN,Fast Moving Consumer Goods,74.0,Leading,decelerating,100.34,100.42,83.8,True,8.15,35.7,Weak
+SYNGENE,Healthcare,74.0,Leading,accelerating,100.26,101.13,40.0,True,6.07,75.0,Strong
+PHOENIXLTD,Realty,73.9,Weakening,decelerating,101.85,99.71,91.0,True,22.94,72.7,Strong
+HONASA,Fast Moving Consumer Goods,73.8,Weakening,accelerating,101.46,99.74,97.5,True,34.04,35.7,Weak
+CYIENT,Information Technology,73.7,Leading,decelerating,100.97,101.13,75.8,True,21.48,48.1,Mixed
+KPRMILL,Textiles,73.7,Leading,decelerating,100.95,100.92,80.6,True,17.42,40.0,Mixed
+LALPATHLAB,Healthcare,73.7,Weakening,decelerating,100.94,99.9,89.0,True,21.98,75.0,Strong
+LTTS,Information Technology,73.6,Leading,decelerating,101.23,100.73,75.6,True,21.19,48.1,Mixed
+MRPL,Oil Gas & Consumable Fuels,73.5,Weakening,accelerating,100.01,98.79,80.2,True,3.81,64.7,Mixed
+SONACOMS,Automobile and Auto Components,73.4,Weakening,decelerating,100.99,97.68,96.7,True,31.15,60.5,Mixed
+AEGISLOG,Oil Gas & Consumable Fuels,73.3,Weakening,decelerating,100.36,99.93,94.0,True,14.02,64.7,Mixed
+CEATLTD,Automobile and Auto Components,73.2,Improving,accelerating,99.86,100.49,60.2,True,0.99,60.5,Mixed
+FEDERALBNK,Financial Services,73.1,Weakening,accelerating,100.89,98.45,87.5,True,13.71,50.0,Mixed
+NAVINFLUOR,Chemicals,72.9,Weakening,accelerating,101.76,99.72,97.7,True,35.62,30.8,Weak
+JKCEMENT,Construction Materials,72.7,Improving,accelerating,99.74,102.24,62.3,True,2.76,54.5,Mixed
+GRANULES,Healthcare,72.5,Weakening,decelerating,100.37,98.14,85.6,True,10.94,75.0,Strong
+PGEL,Consumer Durables,72.5,Leading,decelerating,100.4,100.74,71.5,True,7.38,50.0,Mixed
+ABDL,Fast Moving Consumer Goods,72.4,N/A,N/A,,,93.5,True,35.44,35.7,Weak
+TATACONSUM,Fast Moving Consumer Goods,72.4,Leading,accelerating,100.09,100.33,57.9,True,4.39,35.7,Weak
+LINDEINDIA,Chemicals,72.1,Improving,accelerating,99.81,100.24,74.2,True,2.99,30.8,Weak
+ITC,Fast Moving Consumer Goods,71.7,Leading,accelerating,100.2,101.67,56.0,True,5.46,35.7,Weak
+J&KBANK,Financial Services,71.7,Weakening,accelerating,100.33,99.4,83.5,True,5.77,50.0,Mixed
+RADICO,Fast Moving Consumer Goods,71.7,Weakening,accelerating,100.94,99.51,91.7,True,23.45,35.7,Weak
+ANGELONE,Financial Services,71.6,Weakening,accelerating,100.94,99.53,83.1,True,14.15,50.0,Mixed
+RBLBANK,Financial Services,71.2,Weakening,accelerating,100.67,99.25,81.9,True,10.86,50.0,Mixed
+RKFORGE,Automobile and Auto Components,71.2,Weakening,decelerating,101.18,99.84,90.2,True,21.27,60.5,Mixed
+SBIN,Financial Services,71.2,Weakening,accelerating,100.86,99.57,82.1,True,9.43,50.0,Mixed
+GESHIP,Services,71.1,Weakening,decelerating,100.24,98.47,87.9,True,9.37,64.3,Mixed
+COHANCE,Healthcare,71.0,Leading,decelerating,100.53,100.98,52.9,True,15.08,75.0,Strong
+GRASIM,Construction Materials,71.0,Improving,accelerating,99.68,100.27,57.5,True,2.46,54.5,Mixed
+BANKINDIA,Financial Services,70.8,Weakening,accelerating,100.93,99.85,81.0,True,10.7,50.0,Mixed
+ACMESOLAR,Power,70.7,N/A,N/A,,,95.6,True,21.12,23.5,Weak
+IIFL,Financial Services,70.6,Weakening,accelerating,100.8,99.24,80.4,True,13.75,50.0,Mixed
+WELSPUNLIV,Textiles,70.4,Weakening,decelerating,101.68,98.62,99.6,True,61.56,40.0,Mixed
+KARURVYSYA,Financial Services,70.3,Weakening,decelerating,101.45,99.61,93.8,True,21.56,50.0,Mixed
+ABCAPITAL,Financial Services,69.8,Weakening,accelerating,100.95,99.15,78.1,True,12.42,50.0,Mixed
+NYKAA,Consumer Services,69.8,Weakening,decelerating,100.92,98.65,89.4,True,18.97,55.2,Mixed
+BLUEJET,Healthcare,69.6,Leading,decelerating,100.02,100.84,48.8,True,4.47,75.0,Strong
+IDFCFIRSTB,Financial Services,69.6,Weakening,accelerating,100.85,99.88,77.3,True,11.52,50.0,Mixed
+ADANIPORTS,Services,69.4,Weakening,decelerating,100.84,99.05,82.9,True,13.64,64.3,Mixed
+IPCALAB,Healthcare,69.3,Weakening,decelerating,100.03,98.54,76.7,True,6.65,75.0,Strong
+PARADEEP,Chemicals,69.3,Leading,accelerating,100.04,101.26,51.7,True,5.31,30.8,Weak
+MOTHERSON,Automobile and Auto Components,69.2,Weakening,decelerating,100.68,98.16,84.6,True,15.83,60.5,Mixed
+UNITDSPR,Fast Moving Consumer Goods,68.9,Leading,decelerating,100.71,100.18,69.2,True,8.09,35.7,Weak
+CGCL,Financial Services,68.8,Weakening,accelerating,100.27,99.03,75.2,True,8.53,50.0,Mixed
+GRAPHITE,Capital Goods,68.8,Weakening,accelerating,100.97,100.0,87.1,True,13.05,29.0,Weak
+ICICIGI,Financial Services,68.8,Improving,accelerating,99.73,101.31,53.8,True,1.67,50.0,Mixed
+SOLARINDS,Chemicals,68.6,Leading,decelerating,100.03,100.29,71.2,True,4.81,30.8,Weak
+MINDACORP,Automobile and Auto Components,68.5,Weakening,decelerating,100.83,99.28,82.5,True,16.29,60.5,Mixed
+NEULANDLAB,Healthcare,68.5,Weakening,decelerating,100.51,98.74,74.4,True,14.89,75.0,Strong
+KFINTECH,Financial Services,68.4,Improving,accelerating,99.82,101.2,52.7,True,2.9,50.0,Mixed
+CHOLAFIN,Financial Services,68.2,Weakening,accelerating,100.73,99.98,73.3,True,9.21,50.0,Mixed
+INDIANB,Financial Services,68.0,Weakening,accelerating,100.59,99.99,72.9,True,8.33,50.0,Mixed
+ITCHOTELS,Consumer Services,68.0,N/A,N/A,,,69.8,True,12.08,55.2,Mixed
+EMAMILTD,Fast Moving Consumer Goods,67.9,Improving,accelerating,99.99,101.74,59.2,True,1.91,35.7,Weak
+KAJARIACER,Consumer Durables,67.9,Weakening,accelerating,100.27,99.75,72.5,True,8.12,50.0,Mixed
+TRENT,Consumer Services,67.9,Leading,decelerating,100.9,101.61,55.4,True,13.64,55.2,Mixed
+FSL,Services,67.8,Leading,decelerating,100.57,100.97,49.8,True,10.24,64.3,Mixed
+NAUKRI,Consumer Services,67.8,Leading,decelerating,100.24,100.66,55.0,True,5.92,55.2,Mixed
+AXISBANK,Financial Services,67.7,Weakening,accelerating,100.97,99.81,72.1,True,8.07,50.0,Mixed
+CUB,Financial Services,67.6,Weakening,decelerating,101.52,99.76,86.0,True,17.37,50.0,Mixed
+HCLTECH,Information Technology,67.6,Leading,decelerating,100.26,100.16,58.5,True,6.71,48.1,Mixed
+ITI,Telecommunication,67.5,Improving,accelerating,99.77,100.59,50.0,True,0.56,50.0,Mixed
+BAJAJFINSV,Financial Services,67.4,Improving,accelerating,99.68,100.94,49.6,True,1.94,50.0,Mixed
+SYRMA,Capital Goods,66.9,Weakening,decelerating,100.44,98.87,96.0,True,19.99,29.0,Weak
+STARHEALTH,Financial Services,66.8,Weakening,accelerating,100.06,98.63,69.4,True,6.17,50.0,Mixed
+BANKBARODA,Financial Services,66.7,Weakening,accelerating,100.3,99.73,69.0,True,6.78,50.0,Mixed
+PIDILITIND,Chemicals,66.6,Leading,decelerating,100.3,100.23,65.6,True,6.26,30.8,Weak
+GODREJIND,Diversified,66.3,Improving,accelerating,99.88,101.34,56.2,True,0.35,33.3,Weak
+BHEL,Capital Goods,66.2,Weakening,accelerating,100.35,98.14,79.6,True,12.09,29.0,Weak
+HFCL,Telecommunication,66.2,Lagging,decelerating,99.98,98.8,96.2,True,5.56,50.0,Mixed
+ADANIENSOL,Power,66.1,Weakening,accelerating,100.3,98.51,82.7,True,8.73,23.5,Weak
+HYUNDAI,Automobile and Auto Components,66.1,N/A,N/A,,,61.5,True,7.5,60.5,Mixed
+INDUSINDBK,Financial Services,66.1,Weakening,accelerating,100.04,98.49,67.5,True,4.38,50.0,Mixed
+MPHASIS,Information Technology,66.1,Leading,decelerating,100.6,100.6,54.2,True,6.72,48.1,Mixed
+HAL,Capital Goods,65.9,Leading,decelerating,100.4,100.66,64.6,True,6.8,29.0,Weak
+PTCIL,Capital Goods,65.8,Weakening,decelerating,101.19,99.67,92.9,True,26.49,29.0,Weak
+AIIL,Financial Services,65.7,N/A,N/A,,,66.2,True,6.39,50.0,Mixed
+ONESOURCE,Healthcare,65.5,N/A,N/A,,,51.5,True,2.96,75.0,Strong
+CASTROLIND,Oil Gas & Consumable Fuels,65.4,Improving,decelerating,99.94,100.75,64.2,True,4.48,64.7,Mixed
+ADANIGREEN,Power,65.1,Weakening,accelerating,100.39,99.36,79.8,True,10.43,23.5,Weak
+TBOTEK,Consumer Services,64.9,N/A,N/A,,,61.0,True,7.54,55.2,Mixed
+BSE,Financial Services,64.6,Weakening,decelerating,100.37,98.04,77.5,True,9.19,50.0,Mixed
+AJANTPHARM,Healthcare,64.3,Lagging,decelerating,99.77,98.12,76.5,True,3.71,75.0,Strong
+ZENSARTECH,Information Technology,64.0,Leading,decelerating,100.27,101.8,48.3,True,4.94,48.1,Mixed
+TORNTPHARM,Healthcare,63.8,Lagging,decelerating,99.77,98.73,75.0,True,4.49,75.0,Strong
+TCS,Information Technology,63.7,Leading,decelerating,100.09,100.73,47.3,True,4.88,48.1,Mixed
+NUVAMA,Financial Services,63.6,Weakening,decelerating,100.46,99.49,74.6,True,11.05,50.0,Mixed
+ADANIENT,Metals & Mining,63.3,Improving,accelerating,99.81,100.48,57.1,True,1.06,16.7,Weak
+PERSISTENT,Information Technology,63.3,Weakening,decelerating,101.21,99.98,74.8,True,18.66,48.1,Mixed
+FINCABLES,Capital Goods,63.1,Weakening,decelerating,100.15,99.05,85.2,True,8.91,29.0,Weak
+SAGILITY,Information Technology,63.1,N/A,N/A,,,60.0,True,8.04,48.1,Mixed
+DATAPATTNS,Capital Goods,61.8,Weakening,decelerating,100.1,98.82,81.5,True,6.15,29.0,Weak
+CIPLA,Healthcare,61.5,Improving,decelerating,99.33,100.05,47.1,True,2.88,75.0,Strong
+HEROMOTOCO,Automobile and Auto Components,61.3,Weakening,decelerating,100.29,99.29,62.1,True,6.21,60.5,Mixed
+SHREECEM,Construction Materials,61.3,Improving,decelerating,99.69,101.82,58.3,True,2.05,54.5,Mixed
+BHARTIHEXA,Telecommunication,61.1,N/A,N/A,,,53.1,True,3.08,50.0,Mixed
+LENSKART,Consumer Services,61.0,N/A,N/A,,,,True,25.16,55.2,Mixed
+MEESHO,Consumer Services,61.0,N/A,N/A,,,,True,33.39,55.2,Mixed
+PWL,Consumer Services,61.0,N/A,N/A,,,,True,19.81,55.2,Mixed
+URBANCO,Consumer Services,61.0,N/A,N/A,,,,True,21.71,55.2,Mixed
+DELHIVERY,Services,60.9,Lagging,accelerating,99.7,99.7,65.8,True,2.45,64.3,Mixed
+JSWCEMENT,Construction Materials,60.9,N/A,N/A,,,,True,1.38,54.5,Mixed
+MGL,Oil Gas & Consumable Fuels,60.7,Improving,decelerating,99.14,100.88,50.8,True,0.82,64.7,Mixed
+TATATECH,Information Technology,60.5,Weakening,accelerating,100.12,99.86,52.5,True,4.36,48.1,Mixed
+SHRIRAMFIN,Financial Services,60.1,Lagging,accelerating,99.63,98.61,71.7,True,0.58,50.0,Mixed
+GROWW,Financial Services,60.0,N/A,N/A,,,,True,13.44,50.0,Mixed
+LGEINDIA,Consumer Durables,60.0,N/A,N/A,,,,True,11.62,50.0,Mixed
+TATACAP,Financial Services,60.0,N/A,N/A,,,,True,1.63,50.0,Mixed
+GMRAIRPORT,Services,59.8,Lagging,accelerating,100.0,98.84,62.7,True,3.55,64.3,Mixed
+CHOICEIN,Financial Services,59.3,Improving,decelerating,99.79,100.72,55.2,True,2.24,50.0,Mixed
+IOC,Oil Gas & Consumable Fuels,58.6,Lagging,accelerating,99.71,99.62,59.0,True,1.29,64.7,Mixed
+LLOYDSME,Metals & Mining,58.1,Improving,decelerating,99.63,100.3,70.8,True,1.52,16.7,Weak
+TITAN,Consumer Durables,58.1,Lagging,decelerating,99.97,98.25,73.1,True,4.27,50.0,Mixed
+ZENTEC,Capital Goods,57.1,Weakening,decelerating,100.12,99.43,67.9,True,3.69,29.0,Weak
+CENTRALBK,Financial Services,57.0,Lagging,accelerating,99.85,99.94,62.9,True,1.85,50.0,Mixed
+RELIANCE,Oil Gas & Consumable Fuels,57.0,Lagging,accelerating,99.81,99.44,54.6,True,2.36,64.7,Mixed
+SUNPHARMA,Healthcare,57.0,Lagging,decelerating,99.17,98.05,55.8,True,2.19,75.0,Strong
+ADANIPOWER,Power,56.7,Lagging,accelerating,99.99,99.33,77.1,True,5.78,23.5,Weak
+APARINDS,Capital Goods,56.3,Lagging,decelerating,99.77,98.31,80.0,True,2.67,29.0,Weak
+BAJAJ-AUTO,Automobile and Auto Components,56.3,Lagging,decelerating,99.69,98.08,61.9,True,2.98,60.5,Mixed
+CANBK,Financial Services,55.8,Lagging,accelerating,99.99,99.64,59.4,True,3.15,50.0,Mixed
+CPPLUS,Capital Goods,55.8,N/A,N/A,,,,True,35.45,29.0,Weak
+TMCV,Capital Goods,55.8,N/A,N/A,,,,True,6.05,29.0,Weak
+JSWSTEEL,Metals & Mining,54.3,Weakening,decelerating,100.03,99.2,66.9,True,4.75,16.7,Weak
+ABB,Capital Goods,52.9,Lagging,decelerating,99.46,98.43,70.2,True,1.3,29.0,Weak
+OFSS,Information Technology,52.9,Lagging,accelerating,99.71,99.99,52.1,True,1.24,48.1,Mixed
+BANDHANBNK,Financial Services,51.2,Improving,accelerating,99.36,100.12,60.6,False,-3.0,50.0,Mixed
+ICICIPRULI,Financial Services,50.0,N/A,N/A,,,,,,50.0,Mixed
+LICI,Financial Services,49.8,Lagging,decelerating,98.81,98.75,49.4,True,0.69,50.0,Mixed
+TATACOMM,Telecommunication,49.7,Lagging,accelerating,99.7,98.86,41.9,True,1.72,50.0,Mixed
+LT,Construction,48.9,Lagging,decelerating,99.59,98.73,57.7,True,4.17,30.8,Weak
+KPIL,Construction,48.7,Lagging,decelerating,99.55,98.52,57.3,True,2.61,30.8,Weak
+ASIANPAINT,Consumer Durables,48.5,Lagging,decelerating,99.82,98.19,45.8,True,3.54,50.0,Mixed
+MRF,Automobile and Auto Components,48.5,Improving,accelerating,99.2,100.17,46.9,False,-0.71,60.5,Mixed
+SPLPETRO,Chemicals,48.5,Improving,accelerating,99.1,100.27,63.7,False,-2.19,30.8,Weak
+ERIS,Healthcare,47.7,Improving,accelerating,99.05,101.95,36.2,False,-3.54,75.0,Strong
+ABREL,Realty,47.3,Improving,accelerating,99.49,100.64,36.5,False,-2.03,72.7,Strong
+IGL,Oil Gas & Consumable Fuels,46.9,Improving,accelerating,99.17,102.41,39.8,False,-0.58,64.7,Mixed
+HEG,Capital Goods,45.8,N/A,N/A,,,,,,29.0,Weak
+HAVELLS,Consumer Durables,45.3,Improving,accelerating,99.44,101.78,43.8,False,-2.28,50.0,Mixed
+HBLENGINE,Capital Goods,44.9,Lagging,decelerating,99.83,99.56,47.5,True,2.83,29.0,Weak
+NAVA,Power,43.4,Improving,accelerating,98.87,100.41,53.5,False,-4.63,23.5,Weak
+DOMS,Fast Moving Consumer Goods,42.3,Improving,accelerating,99.04,100.46,43.3,False,-3.78,35.7,Weak
+RAMCOCEM,Construction Materials,42.2,Improving,accelerating,98.87,100.76,32.3,False,-11.7,54.5,Mixed
+HINDUNILVR,Fast Moving Consumer Goods,42.1,Improving,accelerating,99.13,100.32,42.7,False,-3.13,35.7,Weak
+TENNIND,Automobile and Auto Components,42.1,N/A,N/A,,,,False,-18.75,60.5,Mixed
+WHIRLPOOL,Consumer Durables,41.6,Improving,accelerating,98.98,100.51,33.1,False,-2.59,50.0,Mixed
+PATANJALI,Fast Moving Consumer Goods,40.9,Improving,accelerating,99.61,101.5,39.2,False,-2.58,35.7,Weak
+ABBOTINDIA,Healthcare,40.7,Improving,decelerating,99.16,100.62,44.8,False,-0.25,75.0,Strong
+CANHLIFE,Financial Services,40.0,N/A,N/A,,,,False,-12.8,50.0,Mixed
+ICICIAMC,Financial Services,40.0,N/A,N/A,,,,False,-4.55,50.0,Mixed
+PINELABS,Financial Services,40.0,N/A,N/A,,,,False,-5.21,50.0,Mixed
+PIRAMALFIN,Financial Services,40.0,N/A,N/A,,,,False,-0.24,50.0,Mixed
+DALBHARAT,Construction Materials,39.8,Improving,accelerating,98.72,102.22,25.4,False,-12.46,54.5,Mixed
+GODREJCP,Fast Moving Consumer Goods,39.7,Improving,accelerating,99.04,100.77,36.0,False,-8.33,35.7,Weak
+AMBUJACEM,Construction Materials,39.6,Improving,accelerating,98.95,101.92,25.0,False,-7.92,54.5,Mixed
+ACC,Construction Materials,39.4,Improving,accelerating,98.96,100.51,24.2,False,-7.07,54.5,Mixed
+CAPLIPOINT,Healthcare,39.3,Improving,decelerating,99.47,100.34,40.8,False,-7.47,75.0,Strong
+UTIAMC,Financial Services,39.3,Improving,accelerating,98.34,100.55,26.5,False,-8.66,50.0,Mixed
+DMART,Consumer Services,39.1,Improving,accelerating,98.48,100.23,22.9,False,-13.38,55.2,Mixed
+ELECON,Capital Goods,38.9,Improving,accelerating,99.46,100.85,37.3,False,-3.34,29.0,Weak
+JUBLPHARMA,Healthcare,38.6,Improving,decelerating,99.34,100.21,39.0,False,-1.56,75.0,Strong
+IEX,Financial Services,38.1,Improving,accelerating,98.45,100.02,23.1,False,-9.03,50.0,Mixed
+TATACHEM,Chemicals,38.1,Improving,accelerating,99.21,101.17,34.0,False,-3.7,30.8,Weak
+ABSLAMC,Financial Services,37.8,Lagging,accelerating,99.08,99.21,65.0,False,-5.66,50.0,Mixed
+UBL,Fast Moving Consumer Goods,37.5,Improving,accelerating,99.04,101.13,29.6,False,-8.75,35.7,Weak
+NAM-INDIA,Financial Services,37.4,Lagging,accelerating,99.68,98.94,64.0,False,-0.69,50.0,Mixed
+PFOCUS,Media Entertainment & Publication,37.3,Lagging,decelerating,98.9,98.92,65.2,False,-15.63,60.0,Mixed
+SUPREMEIND,Capital Goods,37.3,Improving,accelerating,98.6,100.13,32.9,False,-10.71,29.0,Weak
+IRFC,Financial Services,37.0,Improving,accelerating,98.9,101.8,20.0,False,-11.11,50.0,Mixed
+SUNDARMFIN,Financial Services,37.0,Improving,decelerating,99.0,100.42,48.5,False,-6.85,50.0,Mixed
+NIVABUPA,Financial Services,36.9,N/A,N/A,,,41.2,False,-5.69,50.0,Mixed
+COROMANDEL,Chemicals,36.5,Improving,decelerating,99.69,101.52,58.1,False,-0.39,30.8,Weak
+IRCTC,Consumer Services,36.4,Improving,accelerating,98.49,100.99,15.2,False,-12.83,55.2,Mixed
+SBICARD,Financial Services,36.1,Improving,accelerating,98.82,101.17,17.3,False,-10.43,50.0,Mixed
+CHOLAHLDNG,Financial Services,36.0,Improving,accelerating,98.13,101.75,17.1,False,-11.92,50.0,Mixed
+EMMVEE,Capital Goods,35.8,N/A,N/A,,,,False,-6.97,29.0,Weak
+SCI,Services,35.6,Lagging,accelerating,98.84,98.8,50.6,False,-6.56,64.3,Mixed
+IKS,Information Technology,35.5,N/A,N/A,,,38.1,False,-3.36,48.1,Mixed
+KIRLOSENG,Capital Goods,35.3,Lagging,accelerating,99.31,98.12,70.0,False,-7.06,29.0,Weak
+GVT&D,Capital Goods,35.2,Lagging,accelerating,99.25,99.15,69.6,False,-1.28,29.0,Weak
+CHAMBLFERT,Chemicals,34.8,Improving,accelerating,98.31,100.66,24.6,False,-12.89,30.8,Weak
+INDIAMART,Consumer Services,34.6,Improving,accelerating,98.48,100.67,10.2,False,-17.18,55.2,Mixed
+AUBANK,Financial Services,34.0,Lagging,accelerating,99.19,98.63,54.4,False,-1.49,50.0,Mixed
+AAVAS,Financial Services,33.9,Improving,accelerating,98.38,100.46,11.2,False,-16.3,50.0,Mixed
+DEVYANI,Consumer Services,33.9,Improving,decelerating,99.48,101.03,36.7,False,-1.35,55.2,Mixed
+BHARATFORG,Automobile and Auto Components,33.8,Lagging,accelerating,98.15,97.85,47.7,False,-9.56,60.5,Mixed
+TECHNOE,Construction,33.8,Improving,accelerating,98.78,100.02,21.7,False,-13.0,30.8,Weak
+JINDALSAW,Capital Goods,33.7,Lagging,decelerating,99.7,99.05,72.7,False,-0.84,29.0,Weak
+HDFCLIFE,Financial Services,33.5,Improving,decelerating,99.49,101.58,38.5,False,-2.19,50.0,Mixed
+BPCL,Oil Gas & Consumable Fuels,33.4,Lagging,accelerating,99.22,99.45,44.2,False,-2.55,64.7,Mixed
+JAINREC,Metals & Mining,33.3,N/A,N/A,,,,False,-22.03,16.7,Weak
+NCC,Construction,33.3,Improving,accelerating,98.72,101.32,20.4,False,-9.28,30.8,Weak
+APOLLOTYRE,Automobile and Auto Components,33.2,Lagging,accelerating,99.26,99.01,46.0,False,-0.59,60.5,Mixed
+SBILIFE,Financial Services,32.9,Lagging,accelerating,99.24,99.79,51.2,False,-1.24,50.0,Mixed
+VOLTAS,Consumer Durables,32.8,Lagging,accelerating,99.34,99.67,51.0,False,-4.47,50.0,Mixed
+COALINDIA,Oil Gas & Consumable Fuels,32.7,Lagging,decelerating,98.67,98.65,49.2,False,-7.57,64.7,Mixed
+ONGC,Oil Gas & Consumable Fuels,32.7,Lagging,accelerating,99.04,99.08,42.1,False,-8.85,64.7,Mixed
+BAJAJHFL,Financial Services,32.5,N/A,N/A,,,28.7,False,-5.22,50.0,Mixed
+BBTC,Fast Moving Consumer Goods,32.5,Improving,accelerating,98.48,100.67,15.4,False,-13.61,35.7,Weak
+ENDURANCE,Automobile and Auto Components,32.5,Lagging,accelerating,99.24,99.42,44.0,False,-0.58,60.5,Mixed
+MAPMYINDIA,Information Technology,32.5,Improving,accelerating,98.97,100.98,8.1,False,-14.1,48.1,Mixed
+HSCL,Chemicals,32.1,Lagging,accelerating,99.23,99.41,59.8,False,-7.87,30.8,Weak
+HOMEFIRST,Financial Services,32.0,Improving,decelerating,98.24,100.51,34.4,False,-8.86,50.0,Mixed
+APTUS,Financial Services,31.8,Improving,accelerating,98.23,101.08,5.0,False,-20.88,50.0,Mixed
+CANFINHOME,Financial Services,31.8,Lagging,accelerating,99.12,99.04,47.9,False,-3.29,50.0,Mixed
+TRAVELFOOD,Consumer Services,31.7,N/A,N/A,,,23.3,False,-9.42,55.2,Mixed
+VTL,Textiles,31.6,Lagging,decelerating,98.58,98.58,60.4,False,-7.62,40.0,Mixed
+TARIL,Capital Goods,31.4,Improving,decelerating,98.87,101.27,44.6,False,-4.39,29.0,Weak
+DCMSHRIRAM,Diversified,31.3,Improving,accelerating,98.56,100.05,13.3,False,-16.21,33.3,Weak
+SOBHA,Realty,31.3,Lagging,accelerating,98.83,99.71,33.5,False,-5.91,72.7,Strong
+BIKAJI,Fast Moving Consumer Goods,31.2,Improving,accelerating,98.55,100.7,11.5,False,-15.39,35.7,Weak
+AADHARHFC,Financial Services,31.0,N/A,N/A,,,24.4,False,-12.4,50.0,Mixed
+NHPC,Power,31.0,Improving,decelerating,98.56,100.4,46.7,False,-1.92,23.5,Weak
+IRCON,Construction,30.9,Improving,accelerating,98.67,100.41,13.5,False,-16.0,30.8,Weak
+JKTYRE,Automobile and Auto Components,30.9,Lagging,accelerating,99.24,99.03,39.4,False,-7.42,60.5,Mixed
+SAPPHIRE,Consumer Services,30.7,Improving,decelerating,99.5,100.88,27.7,False,-1.41,55.2,Mixed
+TATAELXSI,Information Technology,30.7,Improving,decelerating,99.5,101.29,31.7,False,-3.45,48.1,Mixed
+EIDPARRY,Fast Moving Consumer Goods,30.4,Improving,accelerating,98.55,100.7,9.2,False,-15.68,35.7,Weak
+INFY,Information Technology,30.2,Improving,decelerating,99.44,100.04,30.2,False,-3.31,48.1,Mixed
+POWERINDIA,Capital Goods,30.2,Lagging,decelerating,99.45,98.57,62.5,False,-0.17,29.0,Weak
+BAYERCROP,Chemicals,30.0,Improving,accelerating,98.55,100.13,11.0,False,-17.9,30.8,Weak
+CAMS,Financial Services,30.0,Lagging,accelerating,99.37,99.56,42.9,False,-0.66,50.0,Mixed
+RAINBOW,Healthcare,30.0,Lagging,decelerating,98.9,99.98,35.8,False,-4.37,75.0,Strong
+ALKEM,Healthcare,29.8,Lagging,decelerating,97.95,98.37,35.2,False,-6.05,75.0,Strong
+FORTIS,Healthcare,29.8,Lagging,accelerating,98.42,99.64,28.1,False,-9.03,75.0,Strong
+NETWEB,Information Technology,29.7,Lagging,accelerating,99.11,98.58,43.1,False,-4.68,48.1,Mixed
+OIL,Oil Gas & Consumable Fuels,29.7,Lagging,decelerating,98.49,98.93,40.6,False,-7.17,64.7,Mixed
+UCOBANK,Financial Services,29.6,Lagging,accelerating,99.14,99.78,41.7,False,-3.04,50.0,Mixed
+AMBER,Consumer Durables,29.5,Lagging,accelerating,98.86,99.98,41.5,False,-5.51,50.0,Mixed
+WIPRO,Information Technology,29.5,Improving,decelerating,99.5,100.55,28.3,False,-0.33,48.1,Mixed
+SRF,Chemicals,29.3,Improving,decelerating,98.7,101.0,37.5,False,-3.27,30.8,Weak
+BDL,Capital Goods,29.1,Improving,accelerating,98.26,100.35,9.4,False,-18.3,29.0,Weak
+GODFRYPHLP,Fast Moving Consumer Goods,29.1,Improving,accelerating,98.17,101.9,5.6,False,-14.48,35.7,Weak
+SCHNEIDER,Capital Goods,29.1,Lagging,accelerating,98.87,99.24,52.3,False,-12.09,29.0,Weak
+JSL,Metals & Mining,28.9,Lagging,accelerating,99.3,99.45,58.8,False,-0.75,16.7,Weak
+LUPIN,Healthcare,28.9,Lagging,decelerating,98.18,98.04,32.7,False,-11.06,75.0,Strong
+SBFC,Financial Services,28.8,Improving,decelerating,98.18,100.46,25.2,False,-4.96,50.0,Mixed
+HDBFS,Financial Services,28.6,N/A,N/A,,,17.5,False,-13.24,50.0,Mixed
+IDEA,Telecommunication,28.4,Lagging,decelerating,99.55,97.88,45.4,False,-4.33,50.0,Mixed
+NESTLEIND,Fast Moving Consumer Goods,28.3,Lagging,accelerating,98.9,98.68,46.2,False,-3.63,35.7,Weak
+AARTIIND,Chemicals,28.1,Lagging,decelerating,98.71,98.13,55.6,False,-4.01,30.8,Weak
+ASHOKLEY,Capital Goods,28.1,Lagging,decelerating,99.32,99.03,56.5,False,-3.73,29.0,Weak
+ZYDUSWELL,Fast Moving Consumer Goods,28.0,Lagging,accelerating,99.11,99.12,45.2,False,-5.58,35.7,Weak
+GILLETTE,Fast Moving Consumer Goods,27.9,Improving,decelerating,98.37,100.76,30.8,False,-7.09,35.7,Weak
+NATCOPHARM,Healthcare,27.9,Lagging,decelerating,98.71,98.9,29.8,False,-12.65,75.0,Strong
+HEXT,Information Technology,27.8,N/A,N/A,,,16.2,False,-4.8,48.1,Mixed
+RVNL,Construction,27.8,Improving,accelerating,98.73,100.5,4.6,False,-24.19,30.8,Weak
+ENRIN,Capital Goods,27.7,N/A,N/A,,,26.9,False,-5.57,29.0,Weak
+JUBLFOOD,Consumer Services,27.7,Improving,decelerating,98.62,100.42,19.0,False,-8.37,55.2,Mixed
+LTF,Financial Services,27.5,Lagging,accelerating,99.05,98.75,35.6,False,-4.05,50.0,Mixed
+CIEINDIA,Automobile and Auto Components,27.4,Lagging,accelerating,98.55,99.16,29.4,False,-14.24,60.5,Mixed
+BLUEDART,Services,27.3,Lagging,accelerating,98.54,99.98,27.1,False,-10.71,64.3,Mixed
+INDUSTOWER,Telecommunication,27.3,Lagging,decelerating,98.92,98.76,42.3,False,-4.26,50.0,Mixed
+MAZDOCK,Capital Goods,27.3,Improving,accelerating,98.32,100.6,4.2,False,-22.71,29.0,Weak
+VMM,Consumer Services,27.3,N/A,N/A,,,10.8,False,-14.47,55.2,Mixed
+OLAELEC,Automobile and Auto Components,27.2,N/A,N/A,,,7.3,False,-9.95,60.5,Mixed
+SUMICHEM,Chemicals,27.2,Improving,accelerating,98.46,100.2,2.9,False,-24.29,30.8,Weak
+BEL,Capital Goods,27.1,Lagging,accelerating,98.83,99.67,46.5,False,-4.23,29.0,Weak
+SJVN,Power,27.1,Improving,accelerating,98.36,100.95,6.9,False,-18.89,23.5,Weak
+COCHINSHIP,Capital Goods,27.0,Improving,accelerating,98.2,100.07,3.5,False,-23.25,29.0,Weak
+CONCOR,Services,27.0,Lagging,accelerating,98.13,99.51,26.2,False,-10.27,64.3,Mixed
+IFCI,Financial Services,27.0,Lagging,accelerating,99.11,98.74,34.2,False,-13.58,50.0,Mixed
+JINDALSTEL,Metals & Mining,27.0,Lagging,accelerating,99.05,99.06,53.3,False,-0.96,16.7,Weak
+KAYNES,Capital Goods,27.0,Improving,accelerating,98.12,100.56,3.3,False,-20.91,29.0,Weak
+SWANCORP,Chemicals,26.9,Improving,accelerating,98.27,100.05,2.1,False,-26.94,30.8,Weak
+CGPOWER,Capital Goods,26.8,Lagging,accelerating,99.07,99.3,45.6,False,-4.56,29.0,Weak
+IOB,Financial Services,26.7,Lagging,accelerating,98.56,99.38,33.3,False,-6.28,50.0,Mixed
+JWL,Capital Goods,26.7,Improving,accelerating,98.18,100.3,2.5,False,-27.4,29.0,Weak
+SUZLON,Capital Goods,26.7,Improving,accelerating,98.65,100.06,2.7,False,-23.74,29.0,Weak
+USHAMART,Capital Goods,26.6,Lagging,accelerating,99.11,98.7,45.0,False,-2.93,29.0,Weak
+ABLBL,Consumer Services,26.5,N/A,N/A,,,8.5,False,-15.46,55.2,Mixed
+ZFCVINDIA,Automobile and Auto Components,26.4,Lagging,decelerating,97.89,98.78,33.8,False,-10.3,60.5,Mixed
+KEC,Construction,26.2,Improving,accelerating,98.25,101.73,0.2,False,-38.09,30.8,Weak
+PFC,Financial Services,26.2,Lagging,accelerating,98.65,99.71,31.9,False,-15.4,50.0,Mixed
+TRIDENT,Textiles,26.2,Lagging,accelerating,98.64,99.7,37.7,False,-4.71,40.0,Mixed
+BLS,Consumer Services,26.1,Improving,decelerating,98.62,100.54,14.6,False,-12.28,55.2,Mixed
+INOXWIND,Capital Goods,26.0,Improving,accelerating,98.35,100.23,0.6,False,-34.79,29.0,Weak
+CARBORUNIV,Capital Goods,25.9,Lagging,decelerating,99.4,98.84,50.2,False,-4.08,29.0,Weak
+GICRE,Financial Services,25.9,Lagging,decelerating,98.76,98.83,38.3,False,-5.37,50.0,Mixed
+IDBI,Financial Services,25.9,Lagging,accelerating,99.39,99.84,31.0,False,-6.66,50.0,Mixed
+MFSL,Financial Services,25.9,Lagging,accelerating,99.02,99.79,31.2,False,-8.15,50.0,Mixed
+SIEMENS,Capital Goods,25.9,Lagging,decelerating,99.27,98.12,50.4,False,-0.06,29.0,Weak
+BIOCON,Healthcare,25.8,Lagging,decelerating,98.29,97.93,23.8,False,-8.45,75.0,Strong
+SCHAEFFLER,Automobile and Auto Components,25.8,Lagging,decelerating,97.85,99.18,32.1,False,-9.03,60.5,Mixed
+BSOFT,Information Technology,25.7,Lagging,decelerating,99.38,99.78,38.8,False,-5.84,48.1,Mixed
+PFIZER,Healthcare,25.6,Lagging,accelerating,98.4,99.7,16.0,False,-14.33,75.0,Strong
+FIRSTCRY,Consumer Services,25.4,N/A,N/A,,,5.4,False,-19.68,55.2,Mixed
+ELGIEQUIP,Capital Goods,25.1,Lagging,decelerating,99.02,98.08,48.1,False,-2.88,29.0,Weak
+RPOWER,Power,25.1,Improving,accelerating,98.37,101.08,1.2,False,-27.52,23.5,Weak
+VBL,Fast Moving Consumer Goods,25.1,Lagging,accelerating,99.19,99.43,36.9,False,-5.84,35.7,Weak
+TIMKEN,Capital Goods,24.9,Lagging,accelerating,98.72,98.95,40.4,False,-6.09,29.0,Weak
+RECLTD,Financial Services,24.8,Lagging,accelerating,98.27,99.15,27.9,False,-10.89,50.0,Mixed
+RRKABEL,Capital Goods,24.7,Lagging,accelerating,99.34,98.18,39.6,False,-11.5,29.0,Weak
+CRISIL,Financial Services,24.6,Lagging,decelerating,98.68,99.85,34.6,False,-6.02,50.0,Mixed
+GODIGIT,Financial Services,24.6,N/A,N/A,,,6.0,False,-18.9,50.0,Mixed
+NTPCGREEN,Power,24.4,N/A,N/A,,,20.6,False,-12.51,23.5,Weak
+POWERGRID,Power,24.3,Lagging,decelerating,98.85,99.19,49.0,False,-5.03,23.5,Weak
+ATGL,Oil Gas & Consumable Fuels,24.1,Lagging,accelerating,98.99,99.37,17.7,False,-10.31,64.7,Mixed
+JSWENERGY,Power,24.1,Lagging,accelerating,98.8,99.11,41.0,False,-4.16,23.5,Weak
+CONCORDBIO,Healthcare,24.0,Lagging,decelerating,98.71,99.9,18.5,False,-12.97,75.0,Strong
+SAIL,Metals & Mining,23.9,Lagging,accelerating,98.76,98.67,44.4,False,-5.16,16.7,Weak
+SWIGGY,Consumer Services,23.9,N/A,N/A,,,1.0,False,-33.08,55.2,Mixed
+TMPV,Automobile and Auto Components,23.8,Improving,decelerating,98.32,100.32,4.8,False,-21.57,60.5,Mixed
+CROMPTON,Consumer Durables,23.7,Lagging,accelerating,98.84,99.71,24.8,False,-10.67,50.0,Mixed
+HINDZINC,Metals & Mining,23.6,Lagging,accelerating,98.69,98.46,43.5,False,-6.97,16.7,Weak
+BRITANNIA,Fast Moving Consumer Goods,23.5,Lagging,accelerating,98.59,99.93,32.5,False,-8.85,35.7,Weak
+HINDCOPPER,Metals & Mining,23.2,Lagging,accelerating,98.13,98.72,42.5,False,-19.71,16.7,Weak
+WAAREEENER,Capital Goods,23.2,N/A,N/A,,,14.0,False,-15.19,29.0,Weak
+ANANTRAJ,Realty,23.0,Lagging,accelerating,98.57,98.82,10.0,False,-17.7,72.7,Strong
+NTPC,Power,23.0,Lagging,accelerating,98.67,99.12,37.9,False,-9.35,23.5,Weak
+COLPAL,Fast Moving Consumer Goods,22.9,Lagging,accelerating,98.69,99.74,30.6,False,-9.19,35.7,Weak
+M&MFIN,Financial Services,22.8,Lagging,accelerating,98.77,98.16,22.3,False,-12.28,50.0,Mixed
+MMTC,Services,22.8,Lagging,accelerating,98.09,99.01,14.2,False,-17.4,64.3,Mixed
+ECLERX,Services,22.7,Lagging,accelerating,99.24,99.67,13.8,False,-10.54,64.3,Mixed
+ARE&M,Automobile and Auto Components,22.6,Lagging,accelerating,98.5,99.53,15.8,False,-10.69,60.5,Mixed
+BERGEPAINT,Consumer Durables,22.6,Lagging,decelerating,98.6,99.73,29.0,False,-3.47,50.0,Mixed
+DABUR,Fast Moving Consumer Goods,22.6,Lagging,decelerating,99.21,99.94,37.1,False,-5.12,35.7,Weak
+JIOFIN,Financial Services,22.5,Lagging,accelerating,98.36,99.4,21.5,False,-7.51,50.0,Mixed
+HINDALCO,Metals & Mining,22.4,Lagging,accelerating,98.59,98.78,40.2,False,-7.81,16.7,Weak
+INDIACEM,Construction Materials,22.3,Lagging,accelerating,98.44,99.21,18.3,False,-14.42,54.5,Mixed
+OLECTRA,Automobile and Auto Components,22.3,Lagging,accelerating,98.76,99.53,14.8,False,-15.99,60.5,Mixed
+TATAINVEST,Financial Services,22.3,Lagging,accelerating,98.42,99.61,20.8,False,-9.16,50.0,Mixed
+LTM,Information Technology,22.1,Lagging,decelerating,99.56,97.76,28.5,False,-1.71,48.1,Mixed
+FIVESTAR,Financial Services,21.9,Lagging,accelerating,99.08,99.87,19.6,False,-9.22,50.0,Mixed
+JMFINANCIL,Financial Services,21.9,Lagging,accelerating,98.27,99.66,19.8,False,-10.3,50.0,Mixed
+TORNTPOWER,Power,21.9,Lagging,accelerating,98.73,98.6,34.8,False,-13.48,23.5,Weak
+FACT,Chemicals,21.7,Lagging,accelerating,98.85,99.52,30.0,False,-7.88,30.8,Weak
+PREMIERENE,Capital Goods,21.5,N/A,N/A,,,9.0,False,-14.17,29.0,Weak
+DEEPAKNTR,Chemicals,21.0,Lagging,decelerating,98.77,99.47,35.4,False,-5.88,30.8,Weak
+NIACL,Financial Services,20.9,Lagging,decelerating,99.01,99.8,24.0,False,-9.16,50.0,Mixed
+CCL,Fast Moving Consumer Goods,20.7,Lagging,decelerating,98.15,98.54,31.5,False,-12.95,35.7,Weak
+SARDAEN,Metals & Mining,20.6,Lagging,accelerating,98.46,99.49,35.0,False,-11.17,16.7,Weak
+TITAGARH,Capital Goods,20.4,Lagging,accelerating,99.11,99.92,27.5,False,-7.98,29.0,Weak
+JSWDULUX,Consumer Durables,20.2,Lagging,decelerating,98.18,99.21,21.9,False,-8.7,50.0,Mixed
+RAILTEL,Telecommunication,20.2,Lagging,accelerating,98.59,99.83,15.0,False,-14.79,50.0,Mixed
+GPIL,Capital Goods,20.1,Lagging,accelerating,98.81,99.52,26.7,False,-13.74,29.0,Weak
+JBMA,Automobile and Auto Components,19.9,Lagging,accelerating,98.26,99.11,7.9,False,-20.57,60.5,Mixed
+MANAPPURAM,Financial Services,19.9,Lagging,decelerating,98.47,98.11,21.0,False,-12.29,50.0,Mixed
+ZEEL,Media Entertainment & Publication,19.9,Lagging,accelerating,98.7,99.81,8.3,False,-17.29,60.0,Mixed
+SAMMAANCAP,Financial Services,19.6,Lagging,accelerating,98.54,99.1,13.1,False,-16.14,50.0,Mixed
+TIINDIA,Automobile and Auto Components,19.6,Lagging,accelerating,98.34,99.69,7.1,False,-17.91,60.5,Mixed
+AFCONS,Construction,19.5,N/A,N/A,,,2.3,False,-23.11,30.8,Weak
+YESBANK,Financial Services,19.4,Lagging,accelerating,98.66,98.65,12.7,False,-16.03,50.0,Mixed
+HUDCO,Financial Services,19.3,Lagging,accelerating,98.69,98.71,12.3,False,-14.14,50.0,Mixed
+BATAINDIA,Consumer Durables,19.2,Lagging,decelerating,98.47,99.88,19.2,False,-7.25,50.0,Mixed
+IRB,Construction,19.1,Lagging,accelerating,98.75,99.53,22.7,False,-12.23,30.8,Weak
+NATIONALUM,Metals & Mining,19.0,Lagging,accelerating,98.39,98.26,30.4,False,-17.68,16.7,Weak
+GALLANTT,Capital Goods,18.5,Lagging,decelerating,99.02,99.92,29.2,False,-11.99,29.0,Weak
+SONATSOFTW,Information Technology,18.0,Lagging,accelerating,98.64,99.26,9.6,False,-14.39,48.1,Mixed
+POLYCAB,Capital Goods,17.9,Lagging,accelerating,98.39,98.57,20.2,False,-12.1,29.0,Weak
+TATASTEEL,Metals & Mining,17.9,Lagging,accelerating,98.06,99.1,27.3,False,-14.88,16.7,Weak
+RITES,Construction,17.7,Lagging,decelerating,98.05,99.01,25.8,False,-9.15,30.8,Weak
+MUTHOOTFIN,Financial Services,17.6,Lagging,accelerating,98.42,98.9,7.5,False,-17.88,50.0,Mixed
+UPL,Chemicals,17.6,Lagging,decelerating,98.86,99.83,25.6,False,-7.16,30.8,Weak
+NSLNISP,Metals & Mining,17.4,Lagging,accelerating,98.53,98.5,26.0,False,-8.19,16.7,Weak
+HONAUT,Capital Goods,17.1,Lagging,accelerating,98.74,99.61,18.1,False,-10.84,29.0,Weak
+INTELLECT,Information Technology,16.6,Lagging,accelerating,98.53,99.55,5.8,False,-15.1,48.1,Mixed
+CREDITACC,Financial Services,16.5,Lagging,accelerating,98.07,98.91,4.4,False,-25.32,50.0,Mixed
+RHIM,Capital Goods,16.5,Lagging,decelerating,98.48,99.72,23.5,False,-8.27,29.0,Weak
+AWL,Fast Moving Consumer Goods,16.4,Lagging,accelerating,97.92,99.25,12.1,False,-10.48,35.7,Weak
+PCBL,Chemicals,16.4,Lagging,decelerating,98.38,99.77,22.1,False,-10.42,30.8,Weak
+ABFRL,Consumer Services,16.3,Lagging,accelerating,98.25,98.95,0.8,False,-33.48,55.2,Mixed
+TATAPOWER,Power,16.3,Lagging,accelerating,98.38,99.81,18.8,False,-13.86,23.5,Weak
+PIIND,Chemicals,16.2,Improving,decelerating,97.85,100.25,0.0,False,-40.59,30.8,Weak
+TTML,Telecommunication,16.1,Lagging,decelerating,98.59,99.71,10.4,False,-12.84,50.0,Mixed
+TEGA,Capital Goods,15.7,Lagging,decelerating,98.88,99.32,21.2,False,-10.39,29.0,Weak
+NBCC,Construction,15.5,Lagging,accelerating,98.73,99.27,12.5,False,-13.29,30.8,Weak
+NLCINDIA,Power,15.2,Lagging,accelerating,98.46,99.16,15.6,False,-18.75,23.5,Weak
+APLAPOLLO,Capital Goods,15.1,Lagging,decelerating,98.4,99.15,19.4,False,-17.32,29.0,Weak
+3MINDIA,Diversified,14.9,Lagging,decelerating,97.76,97.83,16.5,False,-14.5,33.3,Weak
+TEJASNET,Telecommunication,14.8,Lagging,decelerating,98.71,98.48,6.5,False,-15.77,50.0,Mixed
+NMDC,Metals & Mining,14.6,Lagging,accelerating,97.98,98.95,17.9,False,-16.8,16.7,Weak
+JUBLINGREA,Chemicals,14.5,Lagging,decelerating,98.46,99.29,16.7,False,-14.28,30.8,Weak
+GMDCLTD,Metals & Mining,14.3,Lagging,accelerating,98.76,99.41,16.9,False,-17.63,16.7,Weak
+PAGEIND,Textiles,14.2,Lagging,decelerating,98.08,99.96,10.6,False,-16.25,40.0,Mixed
+CLEAN,Chemicals,13.7,Lagging,decelerating,98.23,99.64,14.4,False,-10.13,30.8,Weak
+GRAVITA,Metals & Mining,13.7,Lagging,decelerating,98.63,98.88,22.5,False,-8.2,16.7,Weak
+KEI,Capital Goods,13.5,Lagging,accelerating,98.2,98.47,7.7,False,-20.88,29.0,Weak
+NEWGEN,Information Technology,13.5,Lagging,decelerating,98.14,99.53,4.0,False,-15.26,48.1,Mixed
+GRSE,Capital Goods,13.0,Lagging,accelerating,98.49,99.06,6.2,False,-18.66,29.0,Weak
+POLICYBZR,Financial Services,13.0,Lagging,decelerating,98.58,99.46,1.5,False,-27.46,50.0,Mixed
+AIAENG,Capital Goods,12.8,Lagging,decelerating,98.29,97.62,12.9,False,-16.3,29.0,Weak
+ATUL,Chemicals,12.8,Lagging,decelerating,98.0,98.55,11.7,False,-20.32,30.8,Weak
+CESC,Power,12.8,Lagging,accelerating,98.42,98.91,8.8,False,-17.53,23.5,Weak
+KPITTECH,Information Technology,12.8,Lagging,decelerating,98.74,99.45,1.9,False,-19.74,48.1,Mixed
+ASTRAL,Capital Goods,12.5,Lagging,decelerating,98.25,98.68,11.9,False,-17.57,29.0,Weak
+LATENTVIEW,Information Technology,12.3,Lagging,decelerating,98.18,97.54,0.4,False,-31.67,48.1,Mixed
+CUMMINSIND,Capital Goods,11.7,Lagging,decelerating,97.93,98.57,9.8,False,-19.13,29.0,Weak
+JPPOWER,Power,11.0,Lagging,accelerating,98.66,99.05,3.8,False,-19.48,23.5,Weak
+ESCORTS,Capital Goods,10.6,Lagging,decelerating,98.07,98.42,6.7,False,-17.54,29.0,Weak
+TRITURBINE,Capital Goods,10.1,Lagging,decelerating,98.71,99.01,5.2,False,-18.2,29.0,Weak
+THERMAX,Capital Goods,9.4,Lagging,decelerating,98.48,98.84,3.1,False,-28.51,29.0,Weak
+VEDL,Metals & Mining,8.9,Lagging,accelerating,99.31,98.75,1.7,False,-40.18,16.7,Weak
